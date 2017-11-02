@@ -6,5 +6,7 @@ Is a Alexa Voice Service Framework to Communicate with the AVS-Amazon Server.
     * HTTPS-Multipart-Json Object Management 
     * GStreamer Pipeline include to play Alexa Sounds 
     * Custom Client/Server Management
+    * builtIn a WakeWord Server
+    * builtIn a WakeWord Client
     * builtIn a Alexa-Server-Prototype as CLI Server for Webserver/ or for other clients
     * builtIn a Alexa-Desktop-Client as Linux gtk+ Application 
