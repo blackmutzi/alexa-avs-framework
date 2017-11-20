@@ -1,0 +1,41 @@
+\hypertarget{classhttp2_1_1HTTP2ResponseAnalyse}{}\section{http2\+:\+:H\+T\+T\+P2\+Response\+Analyse Class Reference}
+\label{classhttp2_1_1HTTP2ResponseAnalyse}\index{http2\+::\+H\+T\+T\+P2\+Response\+Analyse@{http2\+::\+H\+T\+T\+P2\+Response\+Analyse}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2ResponseAnalyse_a87e4d8faa0f1132d0c24fd952be231dd}\label{classhttp2_1_1HTTP2ResponseAnalyse_a87e4d8faa0f1132d0c24fd952be231dd}} 
+void {\bfseries set\+Response\+Header\+Info} (Shared\+Header\+Info info)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2ResponseAnalyse_a0fabbe7992b60e7862e869f92fcacce8}\label{classhttp2_1_1HTTP2ResponseAnalyse_a0fabbe7992b60e7862e869f92fcacce8}} 
+void {\bfseries set\+Response\+Content\+Data} (\hyperlink{classhttp2_1_1HTTP2Response}{H\+T\+T\+P2\+Response} $\ast$response)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2ResponseAnalyse_a45ef0d936974117a0a185fbffb87c588}\label{classhttp2_1_1HTTP2ResponseAnalyse_a45ef0d936974117a0a185fbffb87c588}} 
+void {\bfseries collect\+Info} (void)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2ResponseAnalyse_a1dcdcc4e334e781e733d11496b83795d}\label{classhttp2_1_1HTTP2ResponseAnalyse_a1dcdcc4e334e781e733d11496b83795d}} 
+Shared\+Header\+Info {\bfseries get\+Header\+Info} (void)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2ResponseAnalyse_ac1dff2c9fe2ad344ca8aac5ad1772655}\label{classhttp2_1_1HTTP2ResponseAnalyse_ac1dff2c9fe2ad344ca8aac5ad1772655}} 
+Directive\+Iterator $\ast$ {\bfseries get\+Result} (void)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2ResponseAnalyse_a02665892a9045550e30031cfa2c9a3d8}\label{classhttp2_1_1HTTP2ResponseAnalyse_a02665892a9045550e30031cfa2c9a3d8}} 
+void {\bfseries clean\+Up} (Directive\+Iterator $\ast$iterator)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2ResponseAnalyse_aa7962adc1cb1599e22597fdef157af58}\label{classhttp2_1_1HTTP2ResponseAnalyse_aa7962adc1cb1599e22597fdef157af58}} 
+size\+\_\+t {\bfseries next\+Entry\+Point} (char $\ast$content, size\+\_\+t offset, char delim)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2ResponseAnalyse_ada0d1180c711199d7ff4612544dc280b}\label{classhttp2_1_1HTTP2ResponseAnalyse_ada0d1180c711199d7ff4612544dc280b}} 
+std\+::vector$<$ size\+\_\+t $>$ {\bfseries get\+Entry\+Positions} (char $\ast$content, size\+\_\+t size, unsigned int amount, std\+::string needle, unsigned int $\ast$real\+\_\+amount)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2ResponseAnalyse_adbd3b150da38e2a927f1f19c11b68360}\label{classhttp2_1_1HTTP2ResponseAnalyse_adbd3b150da38e2a927f1f19c11b68360}} 
+size\+\_\+t {\bfseries search} (char $\ast$content, size\+\_\+t offset, size\+\_\+t size, std\+::string needle)
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/include/http2/http2responseanalyse.\+hpp\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/http2/http2responseanalyse.\+cpp\end{DoxyCompactItemize}

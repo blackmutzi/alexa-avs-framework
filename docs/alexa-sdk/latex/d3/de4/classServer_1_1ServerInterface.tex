@@ -1,0 +1,44 @@
+\hypertarget{classServer_1_1ServerInterface}{}\section{Server\+:\+:Server\+Interface Class Reference}
+\label{classServer_1_1ServerInterface}\index{Server\+::\+Server\+Interface@{Server\+::\+Server\+Interface}}
+Inheritance diagram for Server\+:\+:Server\+Interface\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d3/de4/classServer_1_1ServerInterface}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classServer_1_1ServerInterface_a3013119f068a5f66b41bbedf695a144a}\label{classServer_1_1ServerInterface_a3013119f068a5f66b41bbedf695a144a}} 
+void {\bfseries initialize} (int port)  throw ( std\+::exception )
+\item 
+\mbox{\Hypertarget{classServer_1_1ServerInterface_aae229bc7178b95cf45d46cecfd30607a}\label{classServer_1_1ServerInterface_aae229bc7178b95cf45d46cecfd30607a}} 
+void {\bfseries send\+To\+Client} (int socket, \hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$data)
+\item 
+\mbox{\Hypertarget{classServer_1_1ServerInterface_af7df3bc716ad249702114baa9349f624}\label{classServer_1_1ServerInterface_af7df3bc716ad249702114baa9349f624}} 
+void {\bfseries send\+To\+Client} (int socket, const char $\ast$data, size\+\_\+t size)
+\item 
+\mbox{\Hypertarget{classServer_1_1ServerInterface_a3dee51a5771ec859c12d181b17cc3580}\label{classServer_1_1ServerInterface_a3dee51a5771ec859c12d181b17cc3580}} 
+std\+::string {\bfseries make\+Client\+Name} (void)
+\item 
+\mbox{\Hypertarget{classServer_1_1ServerInterface_af98a8efb11c55a9e0f8c3e5e3626a927}\label{classServer_1_1ServerInterface_af98a8efb11c55a9e0f8c3e5e3626a927}} 
+virtual void {\bfseries on\+Client\+Connect\+Event} (\hyperlink{classServer_1_1Client}{Client} $\ast$client)=0
+\item 
+\mbox{\Hypertarget{classServer_1_1ServerInterface_a340d6ca49a8a515b4f1714cd7b8996c2}\label{classServer_1_1ServerInterface_a340d6ca49a8a515b4f1714cd7b8996c2}} 
+virtual void {\bfseries on\+Client\+Disconnect\+Event} (\hyperlink{classServer_1_1Client}{Client} $\ast$client)=0
+\item 
+\mbox{\Hypertarget{classServer_1_1ServerInterface_a0b1d7a0c99bb435b5c22abbf75269b90}\label{classServer_1_1ServerInterface_a0b1d7a0c99bb435b5c22abbf75269b90}} 
+virtual void {\bfseries on\+Receive\+Event} (\hyperlink{classServer_1_1Client}{Client} $\ast$client, char $\ast$data, size\+\_\+t size)=0
+\item 
+\mbox{\Hypertarget{classServer_1_1ServerInterface_a39ca36342b5d93f834c7923628e9b7a4}\label{classServer_1_1ServerInterface_a39ca36342b5d93f834c7923628e9b7a4}} 
+int {\bfseries get\+Srv\+Socket} (void)
+\item 
+\mbox{\Hypertarget{classServer_1_1ServerInterface_acdf8db44eb86e7f96d9eb1ae431a67de}\label{classServer_1_1ServerInterface_acdf8db44eb86e7f96d9eb1ae431a67de}} 
+int {\bfseries get\+Srv\+Port} (void)
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/include/server/serverinterface.\+hpp\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/server/serverinterface.\+cpp\end{DoxyCompactItemize}

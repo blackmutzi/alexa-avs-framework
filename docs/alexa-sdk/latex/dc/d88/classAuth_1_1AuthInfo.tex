@@ -1,0 +1,79 @@
+\hypertarget{classAuth_1_1AuthInfo}{}\section{Auth\+:\+:Auth\+Info Class Reference}
+\label{classAuth_1_1AuthInfo}\index{Auth\+::\+Auth\+Info@{Auth\+::\+Auth\+Info}}
+
+
+The \hyperlink{classAuth_1_1AuthInfo}{Auth\+Info} class contains important data to connect Amazon A\+PI.  
+
+
+
+
+{\ttfamily \#include $<$authinfo.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classAuth_1_1AuthInfo_a5de00b6ffe9720a53ad2627fd78c4f47}{set\+Client\+Id} (std\+::string id)
+\begin{DoxyCompactList}\small\item\em Amazon Login Link. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classAuth_1_1AuthInfo_aec30a55883de170a521fb998624b5fc1}\label{classAuth_1_1AuthInfo_aec30a55883de170a521fb998624b5fc1}} 
+void {\bfseries set\+Client\+Secret} (std\+::string secret)
+\item 
+\mbox{\Hypertarget{classAuth_1_1AuthInfo_af3190f66ac7f78db1c27484755b13c89}\label{classAuth_1_1AuthInfo_af3190f66ac7f78db1c27484755b13c89}} 
+void {\bfseries set\+Product\+Name} (std\+::string name)
+\item 
+\mbox{\Hypertarget{classAuth_1_1AuthInfo_acd647f584c363e4ba256b5cfd5dd0f4a}\label{classAuth_1_1AuthInfo_acd647f584c363e4ba256b5cfd5dd0f4a}} 
+void {\bfseries set\+Redirect\+Uri} (std\+::string uri)
+\item 
+\mbox{\Hypertarget{classAuth_1_1AuthInfo_a8c092072b1a7a0aa2b4a0376ae39ad83}\label{classAuth_1_1AuthInfo_a8c092072b1a7a0aa2b4a0376ae39ad83}} 
+void {\bfseries set\+Code\+Grant} (std\+::string code)
+\item 
+\mbox{\Hypertarget{classAuth_1_1AuthInfo_af1bd54d97de21ec565b9a971f5b1a787}\label{classAuth_1_1AuthInfo_af1bd54d97de21ec565b9a971f5b1a787}} 
+void {\bfseries set\+Refresh\+Token} (std\+::string token)
+\item 
+\mbox{\Hypertarget{classAuth_1_1AuthInfo_abcd384461140303298421591573d36fb}\label{classAuth_1_1AuthInfo_abcd384461140303298421591573d36fb}} 
+void {\bfseries set\+Refresh\+Token\+Valid\+Status} (bool status)
+\item 
+\mbox{\Hypertarget{classAuth_1_1AuthInfo_a845886c67528249b09924e67c684c789}\label{classAuth_1_1AuthInfo_a845886c67528249b09924e67c684c789}} 
+std\+::string {\bfseries get\+Client\+Id} (void) const
+\item 
+\mbox{\Hypertarget{classAuth_1_1AuthInfo_a9df5f7211413ec115a36c8dca9ea4420}\label{classAuth_1_1AuthInfo_a9df5f7211413ec115a36c8dca9ea4420}} 
+std\+::string {\bfseries get\+Client\+Secret} (void) const
+\item 
+\mbox{\Hypertarget{classAuth_1_1AuthInfo_a41ae415f3d6f918dfbb9cf25d44b0fdd}\label{classAuth_1_1AuthInfo_a41ae415f3d6f918dfbb9cf25d44b0fdd}} 
+std\+::string {\bfseries get\+Product\+Name} (void) const
+\item 
+\mbox{\Hypertarget{classAuth_1_1AuthInfo_a17644793f32fca68f26b1220c969dee7}\label{classAuth_1_1AuthInfo_a17644793f32fca68f26b1220c969dee7}} 
+std\+::string {\bfseries get\+Redirect\+Uri} (void) const
+\item 
+\mbox{\Hypertarget{classAuth_1_1AuthInfo_a99511ef4fe2e587d4292492a0fe3be45}\label{classAuth_1_1AuthInfo_a99511ef4fe2e587d4292492a0fe3be45}} 
+std\+::string {\bfseries get\+Code\+Grant} (void) const
+\item 
+\mbox{\Hypertarget{classAuth_1_1AuthInfo_a4fed5d4d14bbecd3296ac66827e331a3}\label{classAuth_1_1AuthInfo_a4fed5d4d14bbecd3296ac66827e331a3}} 
+std\+::string {\bfseries get\+Refresh\+Token} (void) const
+\item 
+\mbox{\Hypertarget{classAuth_1_1AuthInfo_af246cbe40bd43bca06a55538a1b6a896}\label{classAuth_1_1AuthInfo_af246cbe40bd43bca06a55538a1b6a896}} 
+bool {\bfseries is\+Refresh\+Token\+Valid} (void) const
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classAuth_1_1AuthInfo}{Auth\+Info} class contains important data to connect Amazon A\+PI. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classAuth_1_1AuthInfo_a5de00b6ffe9720a53ad2627fd78c4f47}\label{classAuth_1_1AuthInfo_a5de00b6ffe9720a53ad2627fd78c4f47}} 
+\index{Auth\+::\+Auth\+Info@{Auth\+::\+Auth\+Info}!set\+Client\+Id@{set\+Client\+Id}}
+\index{set\+Client\+Id@{set\+Client\+Id}!Auth\+::\+Auth\+Info@{Auth\+::\+Auth\+Info}}
+\subsubsection{\texorpdfstring{set\+Client\+Id()}{setClientId()}}
+{\footnotesize\ttfamily void Auth\+Info\+::set\+Client\+Id (\begin{DoxyParamCaption}\item[{std\+::string}]{id }\end{DoxyParamCaption})}
+
+
+
+Amazon Login Link. 
+
+important for login link is client\+\_\+id , client\+\_\+secret , product\+\_\+name and redirect\+\_\+uri
+
+after Login get the code\+\_\+grant with code\+\_\+grant get refresh\+\_\+token and with refresh\+\_\+token get access\+\_\+token. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/include/auth/authinfo.\+hpp\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/auth/authinfo.\+cpp\end{DoxyCompactItemize}

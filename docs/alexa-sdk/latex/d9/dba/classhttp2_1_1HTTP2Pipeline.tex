@@ -1,0 +1,96 @@
+\hypertarget{classhttp2_1_1HTTP2Pipeline}{}\section{http2\+:\+:H\+T\+T\+P2\+Pipeline Class Reference}
+\label{classhttp2_1_1HTTP2Pipeline}\index{http2\+::\+H\+T\+T\+P2\+Pipeline@{http2\+::\+H\+T\+T\+P2\+Pipeline}}
+Inheritance diagram for http2\+:\+:H\+T\+T\+P2\+Pipeline\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.274854cm]{d9/dba/classhttp2_1_1HTTP2Pipeline}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_a9aafb16165a4c4b322b0f33305e28147}\label{classhttp2_1_1HTTP2Pipeline_a9aafb16165a4c4b322b0f33305e28147}} 
+void {\bfseries initialize} (void)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_a7ee321bf03c89ef557ca7f83686d365e}\label{classhttp2_1_1HTTP2Pipeline_a7ee321bf03c89ef557ca7f83686d365e}} 
+void {\bfseries connect} (\hyperlink{classhttp2_1_1PipelineConnectInfo}{Pipeline\+Connect\+Info} $\ast$info) override final
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_ae4d535de3147f67c0a228bd987b095c2}\label{classhttp2_1_1HTTP2Pipeline_ae4d535de3147f67c0a228bd987b095c2}} 
+void {\bfseries connection\+Loop} (void) override final
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_ac531543d68270e37250910c6633e68ac}\label{classhttp2_1_1HTTP2Pipeline_ac531543d68270e37250910c6633e68ac}} 
+void {\bfseries disconnect} (void) override final
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_a9a7d5365e510b09fde550bb26179c059}\label{classhttp2_1_1HTTP2Pipeline_a9a7d5365e510b09fde550bb26179c059}} 
+void {\bfseries set\+Transport\+Data} (\hyperlink{classhttp2_1_1HTTP2TransportData}{H\+T\+T\+P2\+Transport\+Data} $\ast$transport\+\_\+data) override final
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_a303c8497cf3b7dc93c1b7c0b813ae849}\label{classhttp2_1_1HTTP2Pipeline_a303c8497cf3b7dc93c1b7c0b813ae849}} 
+void {\bfseries perform\+Stream} (void) override final
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_abccb5159a78ce3aa1940a8306c489183}\label{classhttp2_1_1HTTP2Pipeline_abccb5159a78ce3aa1940a8306c489183}} 
+virtual void {\bfseries on\+Response\+Processing\+Event} (\hyperlink{classhttp2_1_1HTTP2Response}{H\+T\+T\+P2\+Response} $\ast$response\+\_\+data)=0
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_aec3dd17054d824c25ba312e532ccf694}\label{classhttp2_1_1HTTP2Pipeline_aec3dd17054d824c25ba312e532ccf694}} 
+virtual void {\bfseries on\+Response\+Header\+Processing\+Event} (Shared\+Header\+Info info)=0
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_a10543373c5537f6fa210ebf7ae6f5f37}\label{classhttp2_1_1HTTP2Pipeline_a10543373c5537f6fa210ebf7ae6f5f37}} 
+void {\bfseries on\+Response\+Event} (void $\ast$content, size\+\_\+t size, int32\+\_\+t stream\+\_\+id) override final
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_ab9b5653e64cd9c877c8a2dfd903afe85}\label{classhttp2_1_1HTTP2Pipeline_ab9b5653e64cd9c877c8a2dfd903afe85}} 
+void {\bfseries on\+Response\+Header\+Event} (const void $\ast$name, size\+\_\+t name\+\_\+size, const void $\ast$value, size\+\_\+t value\+\_\+size, int32\+\_\+t stream\+\_\+id) override final
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_a81d78bc5a1951899b93dbb78c1f5e8bd}\label{classhttp2_1_1HTTP2Pipeline_a81d78bc5a1951899b93dbb78c1f5e8bd}} 
+void {\bfseries on\+Response\+Header\+Begin\+Event} (int32\+\_\+t stream\+\_\+id) override final
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_aa243a9cac73e023f96d1355aac3977e3}\label{classhttp2_1_1HTTP2Pipeline_aa243a9cac73e023f96d1355aac3977e3}} 
+void {\bfseries on\+Response\+Header\+End\+Event} (int32\+\_\+t stream\+\_\+id) override final
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_aaecbb345448e191da1faae5172ac2e0a}\label{classhttp2_1_1HTTP2Pipeline_aaecbb345448e191da1faae5172ac2e0a}} 
+void {\bfseries on\+Event\+Base\+Error\+Event} (void)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_af61be46e5ce1db62ac16a1ba650a76bf}\label{classhttp2_1_1HTTP2Pipeline_af61be46e5ce1db62ac16a1ba650a76bf}} 
+bool {\bfseries is\+Pipeline\+Ready} (void)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_af79360a92313b4debe0ee3ac7a8c085f}\label{classhttp2_1_1HTTP2Pipeline_af79360a92313b4debe0ee3ac7a8c085f}} 
+void {\bfseries on\+Event\+Loop} (event\+\_\+base $\ast$base)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_a4b96c2bb53bfe5cd1413b09d990a129e}\label{classhttp2_1_1HTTP2Pipeline_a4b96c2bb53bfe5cd1413b09d990a129e}} 
+void {\bfseries on\+Event\+Dispatch} (event\+\_\+base $\ast$base, long seconds)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_aad8300fe9c3955bf5ed40c701bfd44f2}\label{classhttp2_1_1HTTP2Pipeline_aad8300fe9c3955bf5ed40c701bfd44f2}} 
+void {\bfseries on\+Event\+Loop\+Exit} (void)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_a7950a8b3a8c55aaf5023a3b8d860d63c}\label{classhttp2_1_1HTTP2Pipeline_a7950a8b3a8c55aaf5023a3b8d860d63c}} 
+bool {\bfseries is\+Event\+Loop\+Running} (void)
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_abb2865cd0061831b365e250d414cb088}\label{classhttp2_1_1HTTP2Pipeline_abb2865cd0061831b365e250d414cb088}} 
+static void {\bfseries on\+Response\+Event\+Callback} (void $\ast$content, size\+\_\+t size, int32\+\_\+t stream\+\_\+id, void $\ast$custom\+\_\+pipeline)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_ac4048cb93d46d574e7e3c05435a49a5d}\label{classhttp2_1_1HTTP2Pipeline_ac4048cb93d46d574e7e3c05435a49a5d}} 
+static void {\bfseries on\+Response\+Header\+Event\+Callback} (const void $\ast$name, size\+\_\+t name\+\_\+size, const void $\ast$value, size\+\_\+t value\+\_\+size, int32\+\_\+t stream\+\_\+id, void $\ast$custom\+\_\+pipeline)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_a31f18c22866f1df8892191bf37b0b392}\label{classhttp2_1_1HTTP2Pipeline_a31f18c22866f1df8892191bf37b0b392}} 
+static void {\bfseries on\+Response\+Header\+Begin\+Callback} (int32\+\_\+t stream\+\_\+id, void $\ast$custom\+\_\+pipeline)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_a1336a2961bd2c3329c18b93350d17409}\label{classhttp2_1_1HTTP2Pipeline_a1336a2961bd2c3329c18b93350d17409}} 
+static void {\bfseries on\+Response\+Header\+End\+Callback} (int32\+\_\+t stream\+\_\+id, void $\ast$custom\+\_\+pipeline)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_a5aee406489df0d228e7804cc63974ccf}\label{classhttp2_1_1HTTP2Pipeline_a5aee406489df0d228e7804cc63974ccf}} 
+static void {\bfseries on\+Event\+Error\+Callback} (void $\ast$custom\+\_\+pip)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2Pipeline_a3ca13a4c185ba3a3643d6c9274637fc9}\label{classhttp2_1_1HTTP2Pipeline_a3ca13a4c185ba3a3643d6c9274637fc9}} 
+static void {\bfseries on\+Transport\+Processing\+Thread} (\hyperlink{classhttp2_1_1HTTP2Pipeline}{H\+T\+T\+P2\+Pipeline} $\ast$pipeline)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/include/http2/http2pipeline.\+hpp\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/http2/http2pipeline.\+cpp\end{DoxyCompactItemize}

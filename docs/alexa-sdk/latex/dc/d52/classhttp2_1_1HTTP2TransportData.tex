@@ -1,0 +1,102 @@
+\hypertarget{classhttp2_1_1HTTP2TransportData}{}\section{http2\+:\+:H\+T\+T\+P2\+Transport\+Data Class Reference}
+\label{classhttp2_1_1HTTP2TransportData}\index{http2\+::\+H\+T\+T\+P2\+Transport\+Data@{http2\+::\+H\+T\+T\+P2\+Transport\+Data}}
+
+
+The \hyperlink{classhttp2_1_1HTTP2TransportData}{H\+T\+T\+P2\+Transport\+Data} class saved http2 header and content.  
+
+
+
+
+{\ttfamily \#include $<$http2transportdata.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classhttp2_1_1HTTP2TransportData_abbca034874381c8d2bde4af82ad50851}{set\+H\+T\+T\+P2\+Header} (\hyperlink{classAlexaEvent_1_1TransportHeaderInfo}{Alexa\+Event\+::\+Transport\+Header\+Info} $\ast$http2\+\_\+multipart\+\_\+header)
+\begin{DoxyCompactList}\small\item\em set\+H\+T\+T\+P2\+Header \end{DoxyCompactList}\item 
+void \hyperlink{classhttp2_1_1HTTP2TransportData_a2bb8e379cba530e84eb0516e3680cc5f}{set\+H\+T\+T\+P2\+Content} (\hyperlink{classAlexaEvent_1_1TransportInfo}{Alexa\+Event\+::\+Transport\+Info} $\ast$http2\+\_\+multipart\+\_\+json\+\_\+object)
+\begin{DoxyCompactList}\small\item\em set\+H\+T\+T\+P2\+Content \end{DoxyCompactList}\item 
+\hyperlink{classAlexaEvent_1_1TransportHeaderInfo}{Alexa\+Event\+::\+Transport\+Header\+Info} $\ast$ \hyperlink{classhttp2_1_1HTTP2TransportData_ada70894e2a9280bdc4e4fba74b4eb94e}{get\+H\+T\+T\+P2\+Header\+Info} (void)
+\begin{DoxyCompactList}\small\item\em get\+H\+T\+T\+P2\+Header\+Info \end{DoxyCompactList}\item 
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Alexa\+Event\+::\+Transport\+Info} $\ast$ \hyperlink{classhttp2_1_1HTTP2TransportData_ae4c1a518b3a0a12e11204889ed9bcbea}{get\+H\+T\+T\+P2\+Content\+Info} (void)
+\begin{DoxyCompactList}\small\item\em get\+H\+T\+T\+P2\+Content\+Info \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2TransportData_a77a94312b7c3bd09956dc06ae6a88e74}\label{classhttp2_1_1HTTP2TransportData_a77a94312b7c3bd09956dc06ae6a88e74}} 
+bool {\bfseries has\+Header} (void)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2TransportData_a8b6e24e6a3c18b3fdef1ac0d8f472538}\label{classhttp2_1_1HTTP2TransportData_a8b6e24e6a3c18b3fdef1ac0d8f472538}} 
+bool {\bfseries has\+Content} (void)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classhttp2_1_1HTTP2TransportData}{H\+T\+T\+P2\+Transport\+Data} class saved http2 header and content. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classhttp2_1_1HTTP2TransportData_ae4c1a518b3a0a12e11204889ed9bcbea}\label{classhttp2_1_1HTTP2TransportData_ae4c1a518b3a0a12e11204889ed9bcbea}} 
+\index{http2\+::\+H\+T\+T\+P2\+Transport\+Data@{http2\+::\+H\+T\+T\+P2\+Transport\+Data}!get\+H\+T\+T\+P2\+Content\+Info@{get\+H\+T\+T\+P2\+Content\+Info}}
+\index{get\+H\+T\+T\+P2\+Content\+Info@{get\+H\+T\+T\+P2\+Content\+Info}!http2\+::\+H\+T\+T\+P2\+Transport\+Data@{http2\+::\+H\+T\+T\+P2\+Transport\+Data}}
+\subsubsection{\texorpdfstring{get\+H\+T\+T\+P2\+Content\+Info()}{getHTTP2ContentInfo()}}
+{\footnotesize\ttfamily \hyperlink{classAlexaEvent_1_1TransportInfo}{Alexa\+Event\+::\+Transport\+Info} $\ast$ H\+T\+T\+P2\+Transport\+Data\+::get\+H\+T\+T\+P2\+Content\+Info (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+get\+H\+T\+T\+P2\+Content\+Info 
+
+return saved http2 multipart json object info instance \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhttp2_1_1HTTP2TransportData_ada70894e2a9280bdc4e4fba74b4eb94e}\label{classhttp2_1_1HTTP2TransportData_ada70894e2a9280bdc4e4fba74b4eb94e}} 
+\index{http2\+::\+H\+T\+T\+P2\+Transport\+Data@{http2\+::\+H\+T\+T\+P2\+Transport\+Data}!get\+H\+T\+T\+P2\+Header\+Info@{get\+H\+T\+T\+P2\+Header\+Info}}
+\index{get\+H\+T\+T\+P2\+Header\+Info@{get\+H\+T\+T\+P2\+Header\+Info}!http2\+::\+H\+T\+T\+P2\+Transport\+Data@{http2\+::\+H\+T\+T\+P2\+Transport\+Data}}
+\subsubsection{\texorpdfstring{get\+H\+T\+T\+P2\+Header\+Info()}{getHTTP2HeaderInfo()}}
+{\footnotesize\ttfamily \hyperlink{classAlexaEvent_1_1TransportHeaderInfo}{Alexa\+Event\+::\+Transport\+Header\+Info} $\ast$ H\+T\+T\+P2\+Transport\+Data\+::get\+H\+T\+T\+P2\+Header\+Info (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+get\+H\+T\+T\+P2\+Header\+Info 
+
+return saved http2 multipart header info instance \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhttp2_1_1HTTP2TransportData_a2bb8e379cba530e84eb0516e3680cc5f}\label{classhttp2_1_1HTTP2TransportData_a2bb8e379cba530e84eb0516e3680cc5f}} 
+\index{http2\+::\+H\+T\+T\+P2\+Transport\+Data@{http2\+::\+H\+T\+T\+P2\+Transport\+Data}!set\+H\+T\+T\+P2\+Content@{set\+H\+T\+T\+P2\+Content}}
+\index{set\+H\+T\+T\+P2\+Content@{set\+H\+T\+T\+P2\+Content}!http2\+::\+H\+T\+T\+P2\+Transport\+Data@{http2\+::\+H\+T\+T\+P2\+Transport\+Data}}
+\subsubsection{\texorpdfstring{set\+H\+T\+T\+P2\+Content()}{setHTTP2Content()}}
+{\footnotesize\ttfamily void H\+T\+T\+P2\+Transport\+Data\+::set\+H\+T\+T\+P2\+Content (\begin{DoxyParamCaption}\item[{\hyperlink{classAlexaEvent_1_1TransportInfo}{Alexa\+Event\+::\+Transport\+Info} $\ast$}]{http2\+\_\+multipart\+\_\+json\+\_\+object }\end{DoxyParamCaption})}
+
+
+
+set\+H\+T\+T\+P2\+Content 
+
+save http2 multipart json object info 
+\begin{DoxyParams}{Parameters}
+{\em http2\+\_\+multipart\+\_\+json\+\_\+object} & $\vert$ \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Transport\+Maker class 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classhttp2_1_1HTTP2TransportData_abbca034874381c8d2bde4af82ad50851}\label{classhttp2_1_1HTTP2TransportData_abbca034874381c8d2bde4af82ad50851}} 
+\index{http2\+::\+H\+T\+T\+P2\+Transport\+Data@{http2\+::\+H\+T\+T\+P2\+Transport\+Data}!set\+H\+T\+T\+P2\+Header@{set\+H\+T\+T\+P2\+Header}}
+\index{set\+H\+T\+T\+P2\+Header@{set\+H\+T\+T\+P2\+Header}!http2\+::\+H\+T\+T\+P2\+Transport\+Data@{http2\+::\+H\+T\+T\+P2\+Transport\+Data}}
+\subsubsection{\texorpdfstring{set\+H\+T\+T\+P2\+Header()}{setHTTP2Header()}}
+{\footnotesize\ttfamily void H\+T\+T\+P2\+Transport\+Data\+::set\+H\+T\+T\+P2\+Header (\begin{DoxyParamCaption}\item[{\hyperlink{classAlexaEvent_1_1TransportHeaderInfo}{Alexa\+Event\+::\+Transport\+Header\+Info} $\ast$}]{http2\+\_\+multipart\+\_\+header }\end{DoxyParamCaption})}
+
+
+
+set\+H\+T\+T\+P2\+Header 
+
+save http2 multipart header info 
+\begin{DoxyParams}{Parameters}
+{\em http2\+\_\+multipart\+\_\+header} & $\vert$ \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Transport\+Maker class 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/include/http2/http2transportdata.\+hpp\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/http2/http2transportdata.\+cpp\end{DoxyCompactItemize}

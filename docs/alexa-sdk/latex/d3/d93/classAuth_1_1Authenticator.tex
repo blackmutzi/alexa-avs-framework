@@ -1,0 +1,221 @@
+\hypertarget{classAuth_1_1Authenticator}{}\section{Auth\+:\+:Authenticator Class Reference}
+\label{classAuth_1_1Authenticator}\index{Auth\+::\+Authenticator@{Auth\+::\+Authenticator}}
+
+
+The \hyperlink{classAuth_1_1Authenticator}{Authenticator} class.  
+
+
+
+
+{\ttfamily \#include $<$authenticator.\+hpp$>$}
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classAuth_1_1Authenticator_aa2af15fcb130ee423175aa5452e3d8be}\label{classAuth_1_1Authenticator_aa2af15fcb130ee423175aa5452e3d8be}} 
+using {\bfseries json} = \hyperlink{namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474}{nlohmann\+::json}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classAuth_1_1Authenticator_adb3592c127b89984e9fb3d621175f0a0}{create\+Auth\+Info} (\hyperlink{classAuth_1_1AuthInfo}{Auth\+Info} $\ast$auth\+\_\+info, std\+::string json\+\_\+config\+\_\+file)
+\begin{DoxyCompactList}\small\item\em create\+Auth\+Info \end{DoxyCompactList}\item 
+bool \hyperlink{classAuth_1_1Authenticator_accb5d9b70982e7118136b81e0b0e2a4e}{validate\+Auth\+Info} (\hyperlink{classAuth_1_1AuthInfo}{Auth\+Info} $\ast$auth\+\_\+info)
+\begin{DoxyCompactList}\small\item\em validate\+Auth\+Info \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classAuth_1_1Authenticator_a7b2e8bca0377fe2a935f679b70069043}{create\+Amazon\+Login\+Link} (\hyperlink{classAuth_1_1AuthInfo}{Auth\+Info} $\ast$auth\+\_\+info)
+\begin{DoxyCompactList}\small\item\em create\+Amazon\+Login\+Link \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classAuth_1_1Authenticator_a2f826abed3c44795178ed74f4f9fbc0c}{get\+Refresh\+Token} (\hyperlink{classAuth_1_1AuthInfo}{Auth\+Info} $\ast$auth\+\_\+info)  throw ( std\+::exception )
+\begin{DoxyCompactList}\small\item\em get\+Refresh\+Token \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classAuth_1_1Authenticator_ae75b09665bc042b3e599a22ec12fed71}{get\+Access\+Token} (\hyperlink{classAuth_1_1AuthInfo}{Auth\+Info} $\ast$auth\+\_\+info)  throw (std\+::exception)
+\begin{DoxyCompactList}\small\item\em get\+Access\+Token \end{DoxyCompactList}\item 
+void \hyperlink{classAuth_1_1Authenticator_a9e817e28311f11dcdf59ed637d28319f}{write\+To\+File} (\hyperlink{classAuth_1_1AuthInfo}{Auth\+Info} $\ast$auth\+\_\+info, std\+::string json\+\_\+config\+\_\+file)
+\begin{DoxyCompactList}\small\item\em write\+To\+File \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \hyperlink{classAuth_1_1Authenticator_a6b2064f905799b93b0f2bdb78fc99b19}{create\+Refresh\+Token\+Post\+Data} (\hyperlink{classAuth_1_1AuthInfo}{Auth\+Info} $\ast$auth\+\_\+info)
+\begin{DoxyCompactList}\small\item\em create\+Refresh\+Token\+Post\+Data \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classAuth_1_1Authenticator_a295ebc69cf3ce17cb6ff0b6d8f8e4584}{create\+Access\+Token\+Post\+Data} (\hyperlink{classAuth_1_1AuthInfo}{Auth\+Info} $\ast$auth\+\_\+info)
+\begin{DoxyCompactList}\small\item\em create\+Access\+Token\+Post\+Data \end{DoxyCompactList}\item 
+bool \hyperlink{classAuth_1_1Authenticator_aeb9ff1428b63189a816d113f1dcdc4f1}{validate\+Code\+Grant} (\hyperlink{classAuth_1_1AuthInfo}{Auth\+Info} $\ast$auth\+\_\+info)
+\begin{DoxyCompactList}\small\item\em validate\+Code\+Grant \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classAuth_1_1Authenticator}{Authenticator} class. 
+
+Connected to Amazon A\+PI \+: \href{https://api.amazon.com/auth/o2/token}{\tt https\+://api.\+amazon.\+com/auth/o2/token} 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classAuth_1_1Authenticator_a295ebc69cf3ce17cb6ff0b6d8f8e4584}\label{classAuth_1_1Authenticator_a295ebc69cf3ce17cb6ff0b6d8f8e4584}} 
+\index{Auth\+::\+Authenticator@{Auth\+::\+Authenticator}!create\+Access\+Token\+Post\+Data@{create\+Access\+Token\+Post\+Data}}
+\index{create\+Access\+Token\+Post\+Data@{create\+Access\+Token\+Post\+Data}!Auth\+::\+Authenticator@{Auth\+::\+Authenticator}}
+\subsubsection{\texorpdfstring{create\+Access\+Token\+Post\+Data()}{createAccessTokenPostData()}}
+{\footnotesize\ttfamily std\+::string Authenticator\+::create\+Access\+Token\+Post\+Data (\begin{DoxyParamCaption}\item[{\hyperlink{classAuth_1_1AuthInfo}{Auth\+Info} $\ast$}]{auth\+\_\+info }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+create\+Access\+Token\+Post\+Data 
+
+build post data for amazon api 
+\begin{DoxyParams}{Parameters}
+{\em auth\+\_\+info} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAuth_1_1Authenticator_a7b2e8bca0377fe2a935f679b70069043}\label{classAuth_1_1Authenticator_a7b2e8bca0377fe2a935f679b70069043}} 
+\index{Auth\+::\+Authenticator@{Auth\+::\+Authenticator}!create\+Amazon\+Login\+Link@{create\+Amazon\+Login\+Link}}
+\index{create\+Amazon\+Login\+Link@{create\+Amazon\+Login\+Link}!Auth\+::\+Authenticator@{Auth\+::\+Authenticator}}
+\subsubsection{\texorpdfstring{create\+Amazon\+Login\+Link()}{createAmazonLoginLink()}}
+{\footnotesize\ttfamily std\+::string Authenticator\+::create\+Amazon\+Login\+Link (\begin{DoxyParamCaption}\item[{\hyperlink{classAuth_1_1AuthInfo}{Auth\+Info} $\ast$}]{auth\+\_\+info }\end{DoxyParamCaption})}
+
+
+
+create\+Amazon\+Login\+Link 
+
+Build a Amazon Login Link 
+\begin{DoxyParams}{Parameters}
+{\em auth\+\_\+info} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAuth_1_1Authenticator_adb3592c127b89984e9fb3d621175f0a0}\label{classAuth_1_1Authenticator_adb3592c127b89984e9fb3d621175f0a0}} 
+\index{Auth\+::\+Authenticator@{Auth\+::\+Authenticator}!create\+Auth\+Info@{create\+Auth\+Info}}
+\index{create\+Auth\+Info@{create\+Auth\+Info}!Auth\+::\+Authenticator@{Auth\+::\+Authenticator}}
+\subsubsection{\texorpdfstring{create\+Auth\+Info()}{createAuthInfo()}}
+{\footnotesize\ttfamily void Authenticator\+::create\+Auth\+Info (\begin{DoxyParamCaption}\item[{\hyperlink{classAuth_1_1AuthInfo}{Auth\+Info} $\ast$}]{auth\+\_\+info,  }\item[{std\+::string}]{json\+\_\+config\+\_\+file }\end{DoxyParamCaption})}
+
+
+
+create\+Auth\+Info 
+
+read json\+\_\+config\+\_\+file and fill information into the authinfo
+
+
+\begin{DoxyParams}{Parameters}
+{\em auth\+\_\+info} & \\
+\hline
+{\em json\+\_\+config\+\_\+file} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classAuth_1_1Authenticator_a6b2064f905799b93b0f2bdb78fc99b19}\label{classAuth_1_1Authenticator_a6b2064f905799b93b0f2bdb78fc99b19}} 
+\index{Auth\+::\+Authenticator@{Auth\+::\+Authenticator}!create\+Refresh\+Token\+Post\+Data@{create\+Refresh\+Token\+Post\+Data}}
+\index{create\+Refresh\+Token\+Post\+Data@{create\+Refresh\+Token\+Post\+Data}!Auth\+::\+Authenticator@{Auth\+::\+Authenticator}}
+\subsubsection{\texorpdfstring{create\+Refresh\+Token\+Post\+Data()}{createRefreshTokenPostData()}}
+{\footnotesize\ttfamily std\+::string Authenticator\+::create\+Refresh\+Token\+Post\+Data (\begin{DoxyParamCaption}\item[{\hyperlink{classAuth_1_1AuthInfo}{Auth\+Info} $\ast$}]{auth\+\_\+info }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+create\+Refresh\+Token\+Post\+Data 
+
+build post data for amazon api 
+\begin{DoxyParams}{Parameters}
+{\em auth\+\_\+info} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAuth_1_1Authenticator_ae75b09665bc042b3e599a22ec12fed71}\label{classAuth_1_1Authenticator_ae75b09665bc042b3e599a22ec12fed71}} 
+\index{Auth\+::\+Authenticator@{Auth\+::\+Authenticator}!get\+Access\+Token@{get\+Access\+Token}}
+\index{get\+Access\+Token@{get\+Access\+Token}!Auth\+::\+Authenticator@{Auth\+::\+Authenticator}}
+\subsubsection{\texorpdfstring{get\+Access\+Token()}{getAccessToken()}}
+{\footnotesize\ttfamily std\+::string Authenticator\+::get\+Access\+Token (\begin{DoxyParamCaption}\item[{\hyperlink{classAuth_1_1AuthInfo}{Auth\+Info} $\ast$}]{auth\+\_\+info }\end{DoxyParamCaption}) throw  std\+::exception) }
+
+
+
+get\+Access\+Token 
+
+connect to amazon api and get a access\+\_\+token by auth\+\_\+info informations mandatory\+: refresh\+\_\+token
+
+
+\begin{DoxyParams}{Parameters}
+{\em auth\+\_\+info} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAuth_1_1Authenticator_a2f826abed3c44795178ed74f4f9fbc0c}\label{classAuth_1_1Authenticator_a2f826abed3c44795178ed74f4f9fbc0c}} 
+\index{Auth\+::\+Authenticator@{Auth\+::\+Authenticator}!get\+Refresh\+Token@{get\+Refresh\+Token}}
+\index{get\+Refresh\+Token@{get\+Refresh\+Token}!Auth\+::\+Authenticator@{Auth\+::\+Authenticator}}
+\subsubsection{\texorpdfstring{get\+Refresh\+Token()}{getRefreshToken()}}
+{\footnotesize\ttfamily std\+::string Authenticator\+::get\+Refresh\+Token (\begin{DoxyParamCaption}\item[{\hyperlink{classAuth_1_1AuthInfo}{Auth\+Info} $\ast$}]{auth\+\_\+info }\end{DoxyParamCaption}) throw  std\+::exception) }
+
+
+
+get\+Refresh\+Token 
+
+connect to amazon api and get a refresh\+\_\+token by auth\+\_\+info informations mandatory\+: code grant
+
+
+\begin{DoxyParams}{Parameters}
+{\em auth\+\_\+info} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAuth_1_1Authenticator_accb5d9b70982e7118136b81e0b0e2a4e}\label{classAuth_1_1Authenticator_accb5d9b70982e7118136b81e0b0e2a4e}} 
+\index{Auth\+::\+Authenticator@{Auth\+::\+Authenticator}!validate\+Auth\+Info@{validate\+Auth\+Info}}
+\index{validate\+Auth\+Info@{validate\+Auth\+Info}!Auth\+::\+Authenticator@{Auth\+::\+Authenticator}}
+\subsubsection{\texorpdfstring{validate\+Auth\+Info()}{validateAuthInfo()}}
+{\footnotesize\ttfamily bool Authenticator\+::validate\+Auth\+Info (\begin{DoxyParamCaption}\item[{\hyperlink{classAuth_1_1AuthInfo}{Auth\+Info} $\ast$}]{auth\+\_\+info }\end{DoxyParamCaption})}
+
+
+
+validate\+Auth\+Info 
+
+validate auth\+\_\+info informations 
+\begin{DoxyParams}{Parameters}
+{\em auth\+\_\+info} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAuth_1_1Authenticator_aeb9ff1428b63189a816d113f1dcdc4f1}\label{classAuth_1_1Authenticator_aeb9ff1428b63189a816d113f1dcdc4f1}} 
+\index{Auth\+::\+Authenticator@{Auth\+::\+Authenticator}!validate\+Code\+Grant@{validate\+Code\+Grant}}
+\index{validate\+Code\+Grant@{validate\+Code\+Grant}!Auth\+::\+Authenticator@{Auth\+::\+Authenticator}}
+\subsubsection{\texorpdfstring{validate\+Code\+Grant()}{validateCodeGrant()}}
+{\footnotesize\ttfamily bool Authenticator\+::validate\+Code\+Grant (\begin{DoxyParamCaption}\item[{\hyperlink{classAuth_1_1AuthInfo}{Auth\+Info} $\ast$}]{auth\+\_\+info }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+validate\+Code\+Grant 
+
+
+\begin{DoxyParams}{Parameters}
+{\em auth\+\_\+info} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAuth_1_1Authenticator_a9e817e28311f11dcdf59ed637d28319f}\label{classAuth_1_1Authenticator_a9e817e28311f11dcdf59ed637d28319f}} 
+\index{Auth\+::\+Authenticator@{Auth\+::\+Authenticator}!write\+To\+File@{write\+To\+File}}
+\index{write\+To\+File@{write\+To\+File}!Auth\+::\+Authenticator@{Auth\+::\+Authenticator}}
+\subsubsection{\texorpdfstring{write\+To\+File()}{writeToFile()}}
+{\footnotesize\ttfamily void Authenticator\+::write\+To\+File (\begin{DoxyParamCaption}\item[{\hyperlink{classAuth_1_1AuthInfo}{Auth\+Info} $\ast$}]{auth\+\_\+info,  }\item[{std\+::string}]{json\+\_\+config\+\_\+file }\end{DoxyParamCaption})}
+
+
+
+write\+To\+File 
+
+write config file new 
+\begin{DoxyParams}{Parameters}
+{\em auth\+\_\+info} & \\
+\hline
+{\em json\+\_\+config\+\_\+file} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/include/auth/authenticator.\+hpp\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/auth/authenticator.\+cpp\end{DoxyCompactItemize}

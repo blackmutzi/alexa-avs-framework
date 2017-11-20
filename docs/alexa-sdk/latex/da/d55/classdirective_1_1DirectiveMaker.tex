@@ -1,0 +1,96 @@
+\hypertarget{classdirective_1_1DirectiveMaker}{}\section{directive\+:\+:Directive\+Maker Class Reference}
+\label{classdirective_1_1DirectiveMaker}\index{directive\+::\+Directive\+Maker@{directive\+::\+Directive\+Maker}}
+
+
+The \hyperlink{classdirective_1_1DirectiveMaker}{Directive\+Maker} class make directive instance and directivetype instance.  
+
+
+
+
+{\ttfamily \#include $<$directivemaker.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classdirective_1_1DirectiveType}{Directive\+Type} $\ast$ \hyperlink{classdirective_1_1DirectiveMaker_aadf8f7e4a9eb58511d370bad8dd2ce29}{create\+Directive\+Type} (const char $\ast$token, const char $\ast$value)
+\begin{DoxyCompactList}\small\item\em create\+Directive\+Type \end{DoxyCompactList}\item 
+\hyperlink{classdirective_1_1Directive}{Directive} $\ast$ \hyperlink{classdirective_1_1DirectiveMaker_a6086feb1f1e4f936081601e9e36d0b7a}{create\+Directive} (\hyperlink{classdirective_1_1DirectiveType}{Directive\+Type} $\ast$type, \hyperlink{classAlexaEvent_1_1TransportInfo}{Alexa\+Event\+::\+Transport\+Info} $\ast$json\+\_\+info, \hyperlink{classAlexaEvent_1_1TransportInfo}{Alexa\+Event\+::\+Transport\+Info} $\ast$audio\+\_\+info=nullptr)
+\begin{DoxyCompactList}\small\item\em create\+Directive \end{DoxyCompactList}\item 
+\hyperlink{classdirective_1_1DirectiveCallbackCommand}{Directive\+Callback\+Command} $\ast$ \hyperlink{classdirective_1_1DirectiveMaker_a4142b03d99c68aa806cd40901538ff5c}{create\+Directive\+Callback\+Command} (\hyperlink{classdirective_1_1DirectiveType}{Directive\+Type} $\ast$type, Directive\+Callback callback, void $\ast$instance)
+\begin{DoxyCompactList}\small\item\em create\+Directive\+Callback\+Command \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classdirective_1_1DirectiveMaker}{Directive\+Maker} class make directive instance and directivetype instance. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classdirective_1_1DirectiveMaker_a6086feb1f1e4f936081601e9e36d0b7a}\label{classdirective_1_1DirectiveMaker_a6086feb1f1e4f936081601e9e36d0b7a}} 
+\index{directive\+::\+Directive\+Maker@{directive\+::\+Directive\+Maker}!create\+Directive@{create\+Directive}}
+\index{create\+Directive@{create\+Directive}!directive\+::\+Directive\+Maker@{directive\+::\+Directive\+Maker}}
+\subsubsection{\texorpdfstring{create\+Directive()}{createDirective()}}
+{\footnotesize\ttfamily \hyperlink{classdirective_1_1Directive}{Directive} $\ast$ Directive\+Maker\+::create\+Directive (\begin{DoxyParamCaption}\item[{\hyperlink{classdirective_1_1DirectiveType}{Directive\+Type} $\ast$}]{type,  }\item[{\hyperlink{classAlexaEvent_1_1TransportInfo}{Alexa\+Event\+::\+Transport\+Info} $\ast$}]{json\+\_\+info,  }\item[{\hyperlink{classAlexaEvent_1_1TransportInfo}{Alexa\+Event\+::\+Transport\+Info} $\ast$}]{audio\+\_\+info = {\ttfamily nullptr} }\end{DoxyParamCaption})}
+
+
+
+create\+Directive 
+
+create directive instance 
+\begin{DoxyParams}{Parameters}
+{\em type} & \\
+\hline
+{\em json\+\_\+info} & \\
+\hline
+{\em audio\+\_\+info} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classdirective_1_1DirectiveMaker_a4142b03d99c68aa806cd40901538ff5c}\label{classdirective_1_1DirectiveMaker_a4142b03d99c68aa806cd40901538ff5c}} 
+\index{directive\+::\+Directive\+Maker@{directive\+::\+Directive\+Maker}!create\+Directive\+Callback\+Command@{create\+Directive\+Callback\+Command}}
+\index{create\+Directive\+Callback\+Command@{create\+Directive\+Callback\+Command}!directive\+::\+Directive\+Maker@{directive\+::\+Directive\+Maker}}
+\subsubsection{\texorpdfstring{create\+Directive\+Callback\+Command()}{createDirectiveCallbackCommand()}}
+{\footnotesize\ttfamily \hyperlink{classdirective_1_1DirectiveCallbackCommand}{Directive\+Callback\+Command} $\ast$ Directive\+Maker\+::create\+Directive\+Callback\+Command (\begin{DoxyParamCaption}\item[{\hyperlink{classdirective_1_1DirectiveType}{Directive\+Type} $\ast$}]{type,  }\item[{Directive\+Callback}]{callback,  }\item[{void $\ast$}]{instance }\end{DoxyParamCaption})}
+
+
+
+create\+Directive\+Callback\+Command 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \\
+\hline
+{\em callback} & \\
+\hline
+{\em instance} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classdirective_1_1DirectiveMaker_aadf8f7e4a9eb58511d370bad8dd2ce29}\label{classdirective_1_1DirectiveMaker_aadf8f7e4a9eb58511d370bad8dd2ce29}} 
+\index{directive\+::\+Directive\+Maker@{directive\+::\+Directive\+Maker}!create\+Directive\+Type@{create\+Directive\+Type}}
+\index{create\+Directive\+Type@{create\+Directive\+Type}!directive\+::\+Directive\+Maker@{directive\+::\+Directive\+Maker}}
+\subsubsection{\texorpdfstring{create\+Directive\+Type()}{createDirectiveType()}}
+{\footnotesize\ttfamily \hyperlink{classdirective_1_1DirectiveType}{Directive\+Type} $\ast$ Directive\+Maker\+::create\+Directive\+Type (\begin{DoxyParamCaption}\item[{const char $\ast$}]{token,  }\item[{const char $\ast$}]{value }\end{DoxyParamCaption})}
+
+
+
+create\+Directive\+Type 
+
+create directivetype instance 
+\begin{DoxyParams}{Parameters}
+{\em token} & as directive namespace name \\
+\hline
+{\em value} & as directive name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/include/directive/directivemaker.\+hpp\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/directive/directivemaker.\+cpp\end{DoxyCompactItemize}

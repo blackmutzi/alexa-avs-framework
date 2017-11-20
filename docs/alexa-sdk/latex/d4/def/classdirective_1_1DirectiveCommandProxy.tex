@@ -1,0 +1,110 @@
+\hypertarget{classdirective_1_1DirectiveCommandProxy}{}\section{directive\+:\+:Directive\+Command\+Proxy Class Reference}
+\label{classdirective_1_1DirectiveCommandProxy}\index{directive\+::\+Directive\+Command\+Proxy@{directive\+::\+Directive\+Command\+Proxy}}
+
+
+The \hyperlink{classdirective_1_1DirectiveCommandProxy}{Directive\+Command\+Proxy} class contains all directivecommand instances and convert a directive to a directivecommand.  
+
+
+
+
+{\ttfamily \#include $<$directivecommandproxy.\+hpp$>$}
+
+Inheritance diagram for directive\+:\+:Directive\+Command\+Proxy\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d4/def/classdirective_1_1DirectiveCommandProxy}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classdirective_1_1DirectiveCommandProxy_a17fe1f9de92de665eec9bff4d5bfd76b}{register\+Command} (\hyperlink{classdirective_1_1DirectiveCommand}{Directive\+Command} $\ast$command)
+\begin{DoxyCompactList}\small\item\em register\+Command \end{DoxyCompactList}\item 
+void \hyperlink{classdirective_1_1DirectiveCommandProxy_aa62a0facb8bd0f4d4ef041b5168078fe}{unregister\+Command} (\hyperlink{classdirective_1_1DirectiveCommand}{Directive\+Command} $\ast$command)
+\begin{DoxyCompactList}\small\item\em unregister\+Command \end{DoxyCompactList}\item 
+void \hyperlink{classdirective_1_1DirectiveCommandProxy_ac69b1d5c1b4d8081c17028c452a5f2da}{register\+Command\+Modul} (\hyperlink{classdirective_1_1DirectiveModulInterface}{Directive\+Modul\+Interface} $\ast$modul)
+\begin{DoxyCompactList}\small\item\em register\+Command\+Modul \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classdirective_1_1DirectiveCommandProxy_a3a03a2e2f3a06c6f6fdb8b507d076d4f}\label{classdirective_1_1DirectiveCommandProxy_a3a03a2e2f3a06c6f6fdb8b507d076d4f}} 
+void {\bfseries unregister\+Command\+Modul} (\hyperlink{classdirective_1_1DirectiveModulInterface}{Directive\+Modul\+Interface} $\ast$modul)
+\item 
+\hyperlink{classdirective_1_1DirectiveCommand}{Directive\+Command} $\ast$ \hyperlink{classdirective_1_1DirectiveCommandProxy_a6074c404a6680496e0aaf4181de99755}{select\+Command} (\hyperlink{classdirective_1_1Directive}{Directive} $\ast$directive)  throw ( std\+::exception )
+\begin{DoxyCompactList}\small\item\em select\+Command \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classdirective_1_1DirectiveCommandProxy}{Directive\+Command\+Proxy} class contains all directivecommand instances and convert a directive to a directivecommand. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classdirective_1_1DirectiveCommandProxy_a17fe1f9de92de665eec9bff4d5bfd76b}\label{classdirective_1_1DirectiveCommandProxy_a17fe1f9de92de665eec9bff4d5bfd76b}} 
+\index{directive\+::\+Directive\+Command\+Proxy@{directive\+::\+Directive\+Command\+Proxy}!register\+Command@{register\+Command}}
+\index{register\+Command@{register\+Command}!directive\+::\+Directive\+Command\+Proxy@{directive\+::\+Directive\+Command\+Proxy}}
+\subsubsection{\texorpdfstring{register\+Command()}{registerCommand()}}
+{\footnotesize\ttfamily void Directive\+Command\+Proxy\+::register\+Command (\begin{DoxyParamCaption}\item[{\hyperlink{classdirective_1_1DirectiveCommand}{Directive\+Command} $\ast$}]{command }\end{DoxyParamCaption})}
+
+
+
+register\+Command 
+
+add a new directivecommand instance 
+\begin{DoxyParams}{Parameters}
+{\em command} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classdirective_1_1DirectiveCommandProxy_ac69b1d5c1b4d8081c17028c452a5f2da}\label{classdirective_1_1DirectiveCommandProxy_ac69b1d5c1b4d8081c17028c452a5f2da}} 
+\index{directive\+::\+Directive\+Command\+Proxy@{directive\+::\+Directive\+Command\+Proxy}!register\+Command\+Modul@{register\+Command\+Modul}}
+\index{register\+Command\+Modul@{register\+Command\+Modul}!directive\+::\+Directive\+Command\+Proxy@{directive\+::\+Directive\+Command\+Proxy}}
+\subsubsection{\texorpdfstring{register\+Command\+Modul()}{registerCommandModul()}}
+{\footnotesize\ttfamily void Directive\+Command\+Proxy\+::register\+Command\+Modul (\begin{DoxyParamCaption}\item[{\hyperlink{classdirective_1_1DirectiveModulInterface}{Directive\+Modul\+Interface} $\ast$}]{modul }\end{DoxyParamCaption})}
+
+
+
+register\+Command\+Modul 
+
+look into the \hyperlink{classdirective_1_1DirectiveModulInterface}{Directive\+Modul\+Interface} instance and added all directivecommand which include it
+
+used this.\+register\+Command method
+
+
+\begin{DoxyParams}{Parameters}
+{\em modul} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classdirective_1_1DirectiveCommandProxy_a6074c404a6680496e0aaf4181de99755}\label{classdirective_1_1DirectiveCommandProxy_a6074c404a6680496e0aaf4181de99755}} 
+\index{directive\+::\+Directive\+Command\+Proxy@{directive\+::\+Directive\+Command\+Proxy}!select\+Command@{select\+Command}}
+\index{select\+Command@{select\+Command}!directive\+::\+Directive\+Command\+Proxy@{directive\+::\+Directive\+Command\+Proxy}}
+\subsubsection{\texorpdfstring{select\+Command()}{selectCommand()}}
+{\footnotesize\ttfamily \hyperlink{classdirective_1_1DirectiveCommand}{Directive\+Command} $\ast$ Directive\+Command\+Proxy\+::select\+Command (\begin{DoxyParamCaption}\item[{\hyperlink{classdirective_1_1Directive}{Directive} $\ast$}]{directive }\end{DoxyParamCaption}) throw  std\+::exception) }
+
+
+
+select\+Command 
+
+equal a directive with all directivecommand instances if any equal then return this driectivecommand instance 
+\begin{DoxyParams}{Parameters}
+{\em directive} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classdirective_1_1DirectiveCommandProxy_aa62a0facb8bd0f4d4ef041b5168078fe}\label{classdirective_1_1DirectiveCommandProxy_aa62a0facb8bd0f4d4ef041b5168078fe}} 
+\index{directive\+::\+Directive\+Command\+Proxy@{directive\+::\+Directive\+Command\+Proxy}!unregister\+Command@{unregister\+Command}}
+\index{unregister\+Command@{unregister\+Command}!directive\+::\+Directive\+Command\+Proxy@{directive\+::\+Directive\+Command\+Proxy}}
+\subsubsection{\texorpdfstring{unregister\+Command()}{unregisterCommand()}}
+{\footnotesize\ttfamily void Directive\+Command\+Proxy\+::unregister\+Command (\begin{DoxyParamCaption}\item[{\hyperlink{classdirective_1_1DirectiveCommand}{Directive\+Command} $\ast$}]{command }\end{DoxyParamCaption})}
+
+
+
+unregister\+Command 
+
+remove a directivecommand instance 
+\begin{DoxyParams}{Parameters}
+{\em command} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/include/directive/directivecommandproxy.\+hpp\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/directive/directivecommandproxy.\+cpp\end{DoxyCompactItemize}

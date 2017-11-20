@@ -1,0 +1,71 @@
+\hypertarget{classServer_1_1AlexaServer}{}\section{Server\+:\+:Alexa\+Server Class Reference}
+\label{classServer_1_1AlexaServer}\index{Server\+::\+Alexa\+Server@{Server\+::\+Alexa\+Server}}
+Inheritance diagram for Server\+:\+:Alexa\+Server\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{dc/d9a/classServer_1_1AlexaServer}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classServer_1_1AlexaServer_a39ea9b02fb72de34fd720b9d7c4f3259}\label{classServer_1_1AlexaServer_a39ea9b02fb72de34fd720b9d7c4f3259}} 
+void {\bfseries set\+Transport\+Data\+Manager} (\hyperlink{classServer_1_1TransportDataManager}{Transport\+Data\+Manager} $\ast$manager)
+\item 
+\mbox{\Hypertarget{classServer_1_1AlexaServer_ad0cf76f36bebc716b70398fd40537ab2}\label{classServer_1_1AlexaServer_ad0cf76f36bebc716b70398fd40537ab2}} 
+void {\bfseries on\+Client\+Connect\+Event} (\hyperlink{classServer_1_1Client}{Client} $\ast$client)
+\item 
+\mbox{\Hypertarget{classServer_1_1AlexaServer_afe60ce9b72931bc772ee83f12603c519}\label{classServer_1_1AlexaServer_afe60ce9b72931bc772ee83f12603c519}} 
+void {\bfseries on\+Client\+Disconnect\+Event} (\hyperlink{classServer_1_1Client}{Client} $\ast$client)
+\item 
+void \hyperlink{classServer_1_1AlexaServer_aba8fd18008128f94c9d9d9c3f510b345}{on\+Receive\+Event} (\hyperlink{classServer_1_1Client}{Client} $\ast$client, char $\ast$data, size\+\_\+t size)
+\begin{DoxyCompactList}\small\item\em on\+Receive\+Event \end{DoxyCompactList}\item 
+void \hyperlink{classServer_1_1AlexaServer_a6bb271d518315a17feee8dec73135244}{on\+Buffered\+Finish\+Event} (\hyperlink{classServer_1_1Client}{Client} $\ast$client)
+\begin{DoxyCompactList}\small\item\em on\+Buffered\+Finish\+Event \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classServer_1_1AlexaServer_a6bb271d518315a17feee8dec73135244}\label{classServer_1_1AlexaServer_a6bb271d518315a17feee8dec73135244}} 
+\index{Server\+::\+Alexa\+Server@{Server\+::\+Alexa\+Server}!on\+Buffered\+Finish\+Event@{on\+Buffered\+Finish\+Event}}
+\index{on\+Buffered\+Finish\+Event@{on\+Buffered\+Finish\+Event}!Server\+::\+Alexa\+Server@{Server\+::\+Alexa\+Server}}
+\subsubsection{\texorpdfstring{on\+Buffered\+Finish\+Event()}{onBufferedFinishEvent()}}
+{\footnotesize\ttfamily void Alexa\+Server\+::on\+Buffered\+Finish\+Event (\begin{DoxyParamCaption}\item[{\hyperlink{classServer_1_1Client}{Client} $\ast$}]{client }\end{DoxyParamCaption})}
+
+
+
+on\+Buffered\+Finish\+Event 
+
+
+\begin{DoxyParams}{Parameters}
+{\em client} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classServer_1_1AlexaServer_aba8fd18008128f94c9d9d9c3f510b345}\label{classServer_1_1AlexaServer_aba8fd18008128f94c9d9d9c3f510b345}} 
+\index{Server\+::\+Alexa\+Server@{Server\+::\+Alexa\+Server}!on\+Receive\+Event@{on\+Receive\+Event}}
+\index{on\+Receive\+Event@{on\+Receive\+Event}!Server\+::\+Alexa\+Server@{Server\+::\+Alexa\+Server}}
+\subsubsection{\texorpdfstring{on\+Receive\+Event()}{onReceiveEvent()}}
+{\footnotesize\ttfamily void Alexa\+Server\+::on\+Receive\+Event (\begin{DoxyParamCaption}\item[{\hyperlink{classServer_1_1Client}{Client} $\ast$}]{client,  }\item[{char $\ast$}]{data,  }\item[{size\+\_\+t}]{size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+on\+Receive\+Event 
+
+buffer incoming data from client 
+\begin{DoxyParams}{Parameters}
+{\em client} & \\
+\hline
+{\em data} & \\
+\hline
+{\em size} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classServer_1_1ServerInterface}{Server\+::\+Server\+Interface}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/include/server/alexaserver.\+hpp\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/server/alexaserver.\+cpp\end{DoxyCompactItemize}

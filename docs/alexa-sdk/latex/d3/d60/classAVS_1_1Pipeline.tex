@@ -1,0 +1,48 @@
+\hypertarget{classAVS_1_1Pipeline}{}\section{A\+VS\+:\+:Pipeline Class Reference}
+\label{classAVS_1_1Pipeline}\index{A\+V\+S\+::\+Pipeline@{A\+V\+S\+::\+Pipeline}}
+Inheritance diagram for A\+VS\+:\+:Pipeline\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.274854cm]{d3/d60/classAVS_1_1Pipeline}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classAVS_1_1Pipeline_ab8688a29f69872ed39e0527d0b5013f5}\label{classAVS_1_1Pipeline_ab8688a29f69872ed39e0527d0b5013f5}} 
+\hyperlink{classdirective_1_1DirectiveObserver}{Directive\+Observer} $\ast$ {\bfseries get\+Directive\+Observer} (void)
+\item 
+\mbox{\Hypertarget{classAVS_1_1Pipeline_a6bef9e600c6b61e129cd7c29e8a1a79a}\label{classAVS_1_1Pipeline_a6bef9e600c6b61e129cd7c29e8a1a79a}} 
+void {\bfseries connect\+To\+Server} (const char $\ast$avs\+\_\+server, \hyperlink{classhttp2_1_1HTTP2TransportData}{H\+T\+T\+P2\+Transport\+Data} $\ast$downchannel\+\_\+data)
+\item 
+\mbox{\Hypertarget{classAVS_1_1Pipeline_acb98b0a94987ffd1a057394e90f95a68}\label{classAVS_1_1Pipeline_acb98b0a94987ffd1a057394e90f95a68}} 
+void {\bfseries on\+Response\+Processing\+Event} (\hyperlink{classhttp2_1_1HTTP2Response}{H\+T\+T\+P2\+Response} $\ast$response\+\_\+data) override final
+\item 
+\mbox{\Hypertarget{classAVS_1_1Pipeline_a393e53bdf76d5a8bdbfc16f0efc3e389}\label{classAVS_1_1Pipeline_a393e53bdf76d5a8bdbfc16f0efc3e389}} 
+void {\bfseries on\+Response\+Header\+Processing\+Event} (Shared\+Header\+Info info) override final
+\item 
+\mbox{\Hypertarget{classAVS_1_1Pipeline_ae2420a57a13ce64cf9ed0b87e48c9c0a}\label{classAVS_1_1Pipeline_ae2420a57a13ce64cf9ed0b87e48c9c0a}} 
+bool {\bfseries get\+Response\+Thread\+Status} (void)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classAVS_1_1Pipeline_a0901d890964c801f21c46a51c518386e}\label{classAVS_1_1Pipeline_a0901d890964c801f21c46a51c518386e}} 
+void {\bfseries set\+Response\+Thread\+Status} (bool status)
+\item 
+\mbox{\Hypertarget{classAVS_1_1Pipeline_a31e2b7d6bc35189339589041c9b10b63}\label{classAVS_1_1Pipeline_a31e2b7d6bc35189339589041c9b10b63}} 
+void {\bfseries response\+\_\+processing} (void)
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classAVS_1_1Pipeline_a03d0305b0d103bfde0c46f89110b054f}\label{classAVS_1_1Pipeline_a03d0305b0d103bfde0c46f89110b054f}} 
+static void {\bfseries on\+Start\+Response\+Processing\+Thread} (\hyperlink{classAVS_1_1Pipeline}{Pipeline} $\ast$pip)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/include/amazon-\/client/pipeline.\+hpp\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/amazon-\/client/pipeline.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,378 @@
+\hypertarget{classAlexaEvent_1_1TransportMaker}{}\section{Alexa\+Event\+:\+:Transport\+Maker Class Reference}
+\label{classAlexaEvent_1_1TransportMaker}\index{Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}}
+
+
+The \hyperlink{classAlexaEvent_1_1TransportMaker}{Transport\+Maker} class is a multipart http2 header and body maker.  
+
+
+
+
+{\ttfamily \#include $<$transportmaker.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$ \hyperlink{classAlexaEvent_1_1TransportMaker_aea75955275f3f8a64424d03f87b33dbe}{create\+Transport\+Info} (\hyperlink{classAlexaEvent_1_1TransportBuilderInterface}{Transport\+Builder\+Interface} $\ast$maker)
+\begin{DoxyCompactList}\small\item\em create\+Transport\+Info \end{DoxyCompactList}\item 
+\hyperlink{classAlexaEvent_1_1TransportHeaderInfo}{Transport\+Header\+Info} $\ast$ \hyperlink{classAlexaEvent_1_1TransportMaker_a3bdf1b3d41417c3edd24769831457ebf}{create\+Transport\+Header\+Info} (\hyperlink{classAlexaEvent_1_1TransportBuilderInterface}{Transport\+Builder\+Interface} $\ast$maker)
+\begin{DoxyCompactList}\small\item\em create\+Transport\+Header\+Info \end{DoxyCompactList}\item 
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$ \hyperlink{classAlexaEvent_1_1TransportMaker_a294732327697810e82e7b82bbcbf5aaa}{create\+Json\+Header\+Info} (const char $\ast$boundary)
+\begin{DoxyCompactList}\small\item\em create\+Json\+Header\+Info \end{DoxyCompactList}\item 
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$ \hyperlink{classAlexaEvent_1_1TransportMaker_acbbf4e90a8350fa760cf8cc072ed2501}{create\+Audio\+Header\+Info} (const char $\ast$boundary)
+\begin{DoxyCompactList}\small\item\em create\+Audio\+Header\+Info \end{DoxyCompactList}\item 
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$ \hyperlink{classAlexaEvent_1_1TransportMaker_ae7337a2522cea0ced276ff43be504800}{create\+Boundary\+Info} (const char $\ast$boundary)
+\begin{DoxyCompactList}\small\item\em create\+Boundary\+Info \end{DoxyCompactList}\item 
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$ \hyperlink{classAlexaEvent_1_1TransportMaker_a8c54ff95e4a0687e6e6e19e80b11cecb}{create\+Json\+Body\+Content\+Finished} (\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$json\+\_\+content, const char $\ast$boundary)
+\begin{DoxyCompactList}\small\item\em create\+Json\+Body\+Content\+Finished \end{DoxyCompactList}\item 
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$ \hyperlink{classAlexaEvent_1_1TransportMaker_a77baa31d47b9c6eff88b8499660752bf}{create\+Json\+Body\+Content\+Not\+Finished} (\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$json\+\_\+content, const char $\ast$boundary)
+\begin{DoxyCompactList}\small\item\em create\+Json\+Body\+Content\+Not\+Finished \end{DoxyCompactList}\item 
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$ \hyperlink{classAlexaEvent_1_1TransportMaker_a0ea3c7a006bcd8e69808438c3e860597}{create\+Json\+Object\+Info} (\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$json\+\_\+content, const char $\ast$boundary)
+\begin{DoxyCompactList}\small\item\em create\+Json\+Object\+Info \end{DoxyCompactList}\item 
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$ \hyperlink{classAlexaEvent_1_1TransportMaker_a6c5d565390aa7b1be80859cd0cb5b7bb}{create\+Json\+Object\+Info} (\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$json\+\_\+content, \hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$audio\+\_\+content, const char $\ast$boundary)
+\begin{DoxyCompactList}\small\item\em create\+Json\+Object\+Info \end{DoxyCompactList}\item 
+\hyperlink{classAlexaEvent_1_1TransportHeaderInfo}{Transport\+Header\+Info} $\ast$ \hyperlink{classAlexaEvent_1_1TransportMaker_ab6d4564a95177c10e341a13938b256a8}{create\+H\+T\+T\+P2\+Header\+Post\+Info} (const char $\ast$access\+\_\+token, const char $\ast$endpoint, const char $\ast$boundary)
+\begin{DoxyCompactList}\small\item\em create\+H\+T\+T\+P2\+Header\+Post\+Info \end{DoxyCompactList}\item 
+\hyperlink{classAlexaEvent_1_1TransportHeaderInfo}{Transport\+Header\+Info} $\ast$ \hyperlink{classAlexaEvent_1_1TransportMaker_a1ec78cac69e3243b492fcdafcc21a7fb}{create\+H\+T\+T\+P2\+Header\+Get\+Info} (const char $\ast$access\+\_\+token, const char $\ast$endpoint)
+\begin{DoxyCompactList}\small\item\em create\+H\+T\+T\+P2\+Header\+Get\+Info \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classAlexaEvent_1_1TransportMaker}{Transport\+Maker} class is a multipart http2 header and body maker. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classAlexaEvent_1_1TransportMaker_acbbf4e90a8350fa760cf8cc072ed2501}\label{classAlexaEvent_1_1TransportMaker_acbbf4e90a8350fa760cf8cc072ed2501}} 
+\index{Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}!create\+Audio\+Header\+Info@{create\+Audio\+Header\+Info}}
+\index{create\+Audio\+Header\+Info@{create\+Audio\+Header\+Info}!Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}}
+\subsubsection{\texorpdfstring{create\+Audio\+Header\+Info()}{createAudioHeaderInfo()}}
+{\footnotesize\ttfamily \hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$ Transport\+Maker\+::create\+Audio\+Header\+Info (\begin{DoxyParamCaption}\item[{const char $\ast$}]{boundary }\end{DoxyParamCaption})}
+
+
+
+create\+Audio\+Header\+Info 
+
+build the final json audio header part 
+\begin{DoxyParams}{Parameters}
+{\em boundary} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Controller 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} instance as json\+\_\+audio\+\_\+header 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAlexaEvent_1_1TransportMaker_ae7337a2522cea0ced276ff43be504800}\label{classAlexaEvent_1_1TransportMaker_ae7337a2522cea0ced276ff43be504800}} 
+\index{Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}!create\+Boundary\+Info@{create\+Boundary\+Info}}
+\index{create\+Boundary\+Info@{create\+Boundary\+Info}!Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}}
+\subsubsection{\texorpdfstring{create\+Boundary\+Info()}{createBoundaryInfo()}}
+{\footnotesize\ttfamily \hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$ Transport\+Maker\+::create\+Boundary\+Info (\begin{DoxyParamCaption}\item[{const char $\ast$}]{boundary }\end{DoxyParamCaption})}
+
+
+
+create\+Boundary\+Info 
+
+convert a boundary to a transportinfo instance 
+\begin{DoxyParams}{Parameters}
+{\em boundary} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Controller 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} instance as boundary\+\_\+info 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAlexaEvent_1_1TransportMaker_a1ec78cac69e3243b492fcdafcc21a7fb}\label{classAlexaEvent_1_1TransportMaker_a1ec78cac69e3243b492fcdafcc21a7fb}} 
+\index{Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}!create\+H\+T\+T\+P2\+Header\+Get\+Info@{create\+H\+T\+T\+P2\+Header\+Get\+Info}}
+\index{create\+H\+T\+T\+P2\+Header\+Get\+Info@{create\+H\+T\+T\+P2\+Header\+Get\+Info}!Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}}
+\subsubsection{\texorpdfstring{create\+H\+T\+T\+P2\+Header\+Get\+Info()}{createHTTP2HeaderGetInfo()}}
+{\footnotesize\ttfamily \hyperlink{classAlexaEvent_1_1TransportHeaderInfo}{Transport\+Header\+Info} $\ast$ Transport\+Maker\+::create\+H\+T\+T\+P2\+Header\+Get\+Info (\begin{DoxyParamCaption}\item[{const char $\ast$}]{access\+\_\+token,  }\item[{const char $\ast$}]{endpoint }\end{DoxyParamCaption})}
+
+
+
+create\+H\+T\+T\+P2\+Header\+Get\+Info 
+
+build final Multipart H\+T\+T\+P2 Header ( method=G\+ET ) =$>$ is for alexa-\/avs-\/downchannel http2\+\_\+header 
+\begin{DoxyParams}{Parameters}
+{\em access\+\_\+token} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Controller 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em endpoint} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+alexa-\/avs-\/endpoints ( /v20160207/directives ) 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+\hyperlink{classAlexaEvent_1_1TransportHeaderInfo}{Transport\+Header\+Info} instance as http2\+\_\+mulitpart\+\_\+header 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+H\+T\+T\+P2\+Transport\+Data class 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classAlexaEvent_1_1TransportMaker_ab6d4564a95177c10e341a13938b256a8}\label{classAlexaEvent_1_1TransportMaker_ab6d4564a95177c10e341a13938b256a8}} 
+\index{Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}!create\+H\+T\+T\+P2\+Header\+Post\+Info@{create\+H\+T\+T\+P2\+Header\+Post\+Info}}
+\index{create\+H\+T\+T\+P2\+Header\+Post\+Info@{create\+H\+T\+T\+P2\+Header\+Post\+Info}!Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}}
+\subsubsection{\texorpdfstring{create\+H\+T\+T\+P2\+Header\+Post\+Info()}{createHTTP2HeaderPostInfo()}}
+{\footnotesize\ttfamily \hyperlink{classAlexaEvent_1_1TransportHeaderInfo}{Transport\+Header\+Info} $\ast$ Transport\+Maker\+::create\+H\+T\+T\+P2\+Header\+Post\+Info (\begin{DoxyParamCaption}\item[{const char $\ast$}]{access\+\_\+token,  }\item[{const char $\ast$}]{endpoint,  }\item[{const char $\ast$}]{boundary }\end{DoxyParamCaption})}
+
+
+
+create\+H\+T\+T\+P2\+Header\+Post\+Info 
+
+build the final Multipart H\+T\+T\+P2 Header ( method=P\+O\+ST ) 
+\begin{DoxyParams}{Parameters}
+{\em access\+\_\+token} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Controller 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em endpoint} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+alexa-\/avs-\/endpoints ( /v20160207/events ) 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em boundary} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Controller 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+\hyperlink{classAlexaEvent_1_1TransportHeaderInfo}{Transport\+Header\+Info} instance as http2\+\_\+multipart\+\_\+header $\vert$ 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+H\+T\+T\+P2\+Transport\+Data class 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classAlexaEvent_1_1TransportMaker_a8c54ff95e4a0687e6e6e19e80b11cecb}\label{classAlexaEvent_1_1TransportMaker_a8c54ff95e4a0687e6e6e19e80b11cecb}} 
+\index{Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}!create\+Json\+Body\+Content\+Finished@{create\+Json\+Body\+Content\+Finished}}
+\index{create\+Json\+Body\+Content\+Finished@{create\+Json\+Body\+Content\+Finished}!Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}}
+\subsubsection{\texorpdfstring{create\+Json\+Body\+Content\+Finished()}{createJsonBodyContentFinished()}}
+{\footnotesize\ttfamily \hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$ Transport\+Maker\+::create\+Json\+Body\+Content\+Finished (\begin{DoxyParamCaption}\item[{\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$}]{json\+\_\+content,  }\item[{const char $\ast$}]{boundary }\end{DoxyParamCaption})}
+
+
+
+create\+Json\+Body\+Content\+Finished 
+
+build a json body part (multipart end) 
+\begin{DoxyParams}{Parameters}
+{\em json\+\_\+content} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classAlexaEvent_1_1EventModulManager}{Event\+Modul\+Manager} 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em boundary} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Controller 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} instance as json\+\_\+body (flag\+: multipart end ) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAlexaEvent_1_1TransportMaker_a77baa31d47b9c6eff88b8499660752bf}\label{classAlexaEvent_1_1TransportMaker_a77baa31d47b9c6eff88b8499660752bf}} 
+\index{Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}!create\+Json\+Body\+Content\+Not\+Finished@{create\+Json\+Body\+Content\+Not\+Finished}}
+\index{create\+Json\+Body\+Content\+Not\+Finished@{create\+Json\+Body\+Content\+Not\+Finished}!Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}}
+\subsubsection{\texorpdfstring{create\+Json\+Body\+Content\+Not\+Finished()}{createJsonBodyContentNotFinished()}}
+{\footnotesize\ttfamily \hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$ Transport\+Maker\+::create\+Json\+Body\+Content\+Not\+Finished (\begin{DoxyParamCaption}\item[{\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$}]{json\+\_\+content,  }\item[{const char $\ast$}]{boundary }\end{DoxyParamCaption})}
+
+
+
+create\+Json\+Body\+Content\+Not\+Finished 
+
+build a json body part ( multipart not end ) 
+\begin{DoxyParams}{Parameters}
+{\em json\+\_\+content} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classAlexaEvent_1_1EventModulManager}{Event\+Modul\+Manager} 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em boundary} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Controller 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} instance as json\+\_\+body ( flag\+: multipart not end ) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAlexaEvent_1_1TransportMaker_a294732327697810e82e7b82bbcbf5aaa}\label{classAlexaEvent_1_1TransportMaker_a294732327697810e82e7b82bbcbf5aaa}} 
+\index{Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}!create\+Json\+Header\+Info@{create\+Json\+Header\+Info}}
+\index{create\+Json\+Header\+Info@{create\+Json\+Header\+Info}!Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}}
+\subsubsection{\texorpdfstring{create\+Json\+Header\+Info()}{createJsonHeaderInfo()}}
+{\footnotesize\ttfamily \hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$ Transport\+Maker\+::create\+Json\+Header\+Info (\begin{DoxyParamCaption}\item[{const char $\ast$}]{boundary }\end{DoxyParamCaption})}
+
+
+
+create\+Json\+Header\+Info 
+
+build the final json header part 
+\begin{DoxyParams}{Parameters}
+{\em boundary} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Controller 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} instance as json\+\_\+header 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAlexaEvent_1_1TransportMaker_a0ea3c7a006bcd8e69808438c3e860597}\label{classAlexaEvent_1_1TransportMaker_a0ea3c7a006bcd8e69808438c3e860597}} 
+\index{Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}!create\+Json\+Object\+Info@{create\+Json\+Object\+Info}}
+\index{create\+Json\+Object\+Info@{create\+Json\+Object\+Info}!Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}}
+\subsubsection{\texorpdfstring{create\+Json\+Object\+Info()}{createJsonObjectInfo()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$ Transport\+Maker\+::create\+Json\+Object\+Info (\begin{DoxyParamCaption}\item[{\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$}]{json\+\_\+content,  }\item[{const char $\ast$}]{boundary }\end{DoxyParamCaption})}
+
+
+
+create\+Json\+Object\+Info 
+
+build the final json object without binary-\/audio-\/data
+
+
+\begin{DoxyEnumerate}
+\item Json Part ////////////////////////////////// /// include json\+\_\+header /// //////////////////////////////////
+\end{DoxyEnumerate}
+
+/////////////////////////////////////////// /// include json\+\_\+body /// /// $\vert$$\vert$-\/$>$ include json\+\_\+content /// ///////////////////////////////////////////
+
+\subsection*{Multipart End}
+
+
+\begin{DoxyParams}{Parameters}
+{\em json\+\_\+content} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classAlexaEvent_1_1EventModulManager}{Event\+Modul\+Manager} 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em boundary} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Controller 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} instance as http2\+\_\+multipart\+\_\+json\+\_\+object $\vert$ 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+H\+T\+T\+P2\+Transport\+Data class 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classAlexaEvent_1_1TransportMaker_a6c5d565390aa7b1be80859cd0cb5b7bb}\label{classAlexaEvent_1_1TransportMaker_a6c5d565390aa7b1be80859cd0cb5b7bb}} 
+\index{Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}!create\+Json\+Object\+Info@{create\+Json\+Object\+Info}}
+\index{create\+Json\+Object\+Info@{create\+Json\+Object\+Info}!Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}}
+\subsubsection{\texorpdfstring{create\+Json\+Object\+Info()}{createJsonObjectInfo()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$ Transport\+Maker\+::create\+Json\+Object\+Info (\begin{DoxyParamCaption}\item[{\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$}]{json\+\_\+content,  }\item[{\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$}]{audio\+\_\+content,  }\item[{const char $\ast$}]{boundary }\end{DoxyParamCaption})}
+
+
+
+create\+Json\+Object\+Info 
+
+build the final json object with binary-\/audio-\/data
+
+
+\begin{DoxyEnumerate}
+\item Json Part ////////////////////////////////// /// include json\+\_\+header /// //////////////////////////////////
+\end{DoxyEnumerate}
+
+//////////////////////////////////////////////////// /// include json\+\_\+body (flag\+: multipart not end ) /// / $\vert$$\vert$-\/$>$ include json\+\_\+content /// ////////////////////////////////////////////////////
+
+
+\begin{DoxyEnumerate}
+\item Audio Part ////////////////////////////////// /// include json\+\_\+audio\+\_\+header /// //////////////////////////////////
+\end{DoxyEnumerate}
+
+///////////////////////////////// /// include audio\+\_\+content /// /////////////////////////////////
+
+\subsection*{Multipart End}
+
+
+\begin{DoxyParams}{Parameters}
+{\em json\+\_\+content} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classAlexaEvent_1_1EventModulManager}{Event\+Modul\+Manager} 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em audio\+\_\+content} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classAlexaEvent_1_1Recorder}{Recorder} 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em boundary} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Controller 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} instance as http2\+\_\+multipart\+\_\+json\+\_\+object $\vert$ 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+H\+T\+T\+P2\+Transport\+Data class 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classAlexaEvent_1_1TransportMaker_a3bdf1b3d41417c3edd24769831457ebf}\label{classAlexaEvent_1_1TransportMaker_a3bdf1b3d41417c3edd24769831457ebf}} 
+\index{Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}!create\+Transport\+Header\+Info@{create\+Transport\+Header\+Info}}
+\index{create\+Transport\+Header\+Info@{create\+Transport\+Header\+Info}!Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}}
+\subsubsection{\texorpdfstring{create\+Transport\+Header\+Info()}{createTransportHeaderInfo()}}
+{\footnotesize\ttfamily \hyperlink{classAlexaEvent_1_1TransportHeaderInfo}{Transport\+Header\+Info} $\ast$ Transport\+Maker\+::create\+Transport\+Header\+Info (\begin{DoxyParamCaption}\item[{\hyperlink{classAlexaEvent_1_1TransportBuilderInterface}{Transport\+Builder\+Interface} $\ast$}]{maker }\end{DoxyParamCaption})}
+
+
+
+create\+Transport\+Header\+Info 
+
+build the final transportheaderinfo instance 
+\begin{DoxyParams}{Parameters}
+{\em maker} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{classAlexaEvent_1_1TransportHeaderInfo}{Transport\+Header\+Info} instance 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAlexaEvent_1_1TransportMaker_aea75955275f3f8a64424d03f87b33dbe}\label{classAlexaEvent_1_1TransportMaker_aea75955275f3f8a64424d03f87b33dbe}} 
+\index{Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}!create\+Transport\+Info@{create\+Transport\+Info}}
+\index{create\+Transport\+Info@{create\+Transport\+Info}!Alexa\+Event\+::\+Transport\+Maker@{Alexa\+Event\+::\+Transport\+Maker}}
+\subsubsection{\texorpdfstring{create\+Transport\+Info()}{createTransportInfo()}}
+{\footnotesize\ttfamily \hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$ Transport\+Maker\+::create\+Transport\+Info (\begin{DoxyParamCaption}\item[{\hyperlink{classAlexaEvent_1_1TransportBuilderInterface}{Transport\+Builder\+Interface} $\ast$}]{maker }\end{DoxyParamCaption})}
+
+
+
+create\+Transport\+Info 
+
+build the final transportinfo instance 
+\begin{DoxyParams}{Parameters}
+{\em maker} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} instance 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/include/event/transportmaker.\+hpp\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/event/transportmaker.\+cpp\end{DoxyCompactItemize}

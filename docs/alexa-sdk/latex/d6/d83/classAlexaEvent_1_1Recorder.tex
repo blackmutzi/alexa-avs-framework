@@ -1,0 +1,68 @@
+\hypertarget{classAlexaEvent_1_1Recorder}{}\section{Alexa\+Event\+:\+:Recorder Class Reference}
+\label{classAlexaEvent_1_1Recorder}\index{Alexa\+Event\+::\+Recorder@{Alexa\+Event\+::\+Recorder}}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classAlexaEvent_1_1Recorder_a8bc3e90ccce14e035c3ccffb64adc93d}\label{classAlexaEvent_1_1Recorder_a8bc3e90ccce14e035c3ccffb64adc93d}} 
+using {\bfseries A\+U\+D\+I\+O\+\_\+\+P\+C\+M\+\_\+\+H\+A\+N\+D\+LE} = snd\+\_\+pcm\+\_\+t
+\item 
+\mbox{\Hypertarget{classAlexaEvent_1_1Recorder_af973afd1233930dbe2b0b88e07db350a}\label{classAlexaEvent_1_1Recorder_af973afd1233930dbe2b0b88e07db350a}} 
+using {\bfseries A\+U\+D\+I\+O\+\_\+\+P\+C\+M\+\_\+\+F\+O\+R\+M\+AT} = snd\+\_\+pcm\+\_\+format\+\_\+t
+\item 
+\mbox{\Hypertarget{classAlexaEvent_1_1Recorder_a2abdf52a7934f7ce0e1803536ee8bef6}\label{classAlexaEvent_1_1Recorder_a2abdf52a7934f7ce0e1803536ee8bef6}} 
+using {\bfseries A\+U\+D\+I\+O\+\_\+\+P\+C\+M\+\_\+\+H\+W\+\_\+\+P\+A\+R\+A\+MS} = snd\+\_\+pcm\+\_\+hw\+\_\+params\+\_\+t
+\item 
+\mbox{\Hypertarget{classAlexaEvent_1_1Recorder_a10054764117aeddbcf4f4eb0ecbf83a8}\label{classAlexaEvent_1_1Recorder_a10054764117aeddbcf4f4eb0ecbf83a8}} 
+using {\bfseries A\+U\+D\+I\+O\+\_\+\+P\+C\+M\+\_\+\+F\+R\+A\+M\+ES} = snd\+\_\+pcm\+\_\+uframes\+\_\+t
+\item 
+\mbox{\Hypertarget{classAlexaEvent_1_1Recorder_ab2178484018af392360c8ef31f6fd943}\label{classAlexaEvent_1_1Recorder_ab2178484018af392360c8ef31f6fd943}} 
+using {\bfseries A\+U\+D\+I\+O\+\_\+\+P\+C\+M\+\_\+\+B\+U\+F\+F\+ER} = char
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classAlexaEvent_1_1Recorder_a63721824d3fa6fa3ba0019ccf80adac7}\label{classAlexaEvent_1_1Recorder_a63721824d3fa6fa3ba0019ccf80adac7}} 
+void {\bfseries set\+Rate} (unsigned int rate)
+\item 
+\mbox{\Hypertarget{classAlexaEvent_1_1Recorder_af3ca0d36189c4b96ba53c4a4212ac855}\label{classAlexaEvent_1_1Recorder_af3ca0d36189c4b96ba53c4a4212ac855}} 
+void {\bfseries set\+Channels} (unsigned int channels)
+\item 
+\mbox{\Hypertarget{classAlexaEvent_1_1Recorder_a4bf708143bbe2b682dbcf1fe849019e8}\label{classAlexaEvent_1_1Recorder_a4bf708143bbe2b682dbcf1fe849019e8}} 
+void {\bfseries set\+Format} (A\+U\+D\+I\+O\+\_\+\+P\+C\+M\+\_\+\+F\+O\+R\+M\+AT format)
+\item 
+\mbox{\Hypertarget{classAlexaEvent_1_1Recorder_a28f7f904c288f62bffc068dd7363c9a2}\label{classAlexaEvent_1_1Recorder_a28f7f904c288f62bffc068dd7363c9a2}} 
+void {\bfseries set\+Device} (char $\ast$device)
+\item 
+\mbox{\Hypertarget{classAlexaEvent_1_1Recorder_a1a5e45eddd171fe7dd1d93c17bfe6fd1}\label{classAlexaEvent_1_1Recorder_a1a5e45eddd171fe7dd1d93c17bfe6fd1}} 
+void {\bfseries set\+Record\+Time} (long time)
+\item 
+\mbox{\Hypertarget{classAlexaEvent_1_1Recorder_aa3a574185d0cec0abaff2e6dc71b43db}\label{classAlexaEvent_1_1Recorder_aa3a574185d0cec0abaff2e6dc71b43db}} 
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$ {\bfseries record\+Now} (void)
+\item 
+\mbox{\Hypertarget{classAlexaEvent_1_1Recorder_a1138b10a99d18df537217568b1f6d702}\label{classAlexaEvent_1_1Recorder_a1138b10a99d18df537217568b1f6d702}} 
+long {\bfseries get\+Record\+Time} (void)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classAlexaEvent_1_1Recorder_a5818d10cbe26c399645bef25b6057870}\label{classAlexaEvent_1_1Recorder_a5818d10cbe26c399645bef25b6057870}} 
+void {\bfseries capture\+Now} (\hyperlink{structAlexaEvent_1_1CaptureInfo}{Capture\+Info} $\ast$info)
+\item 
+\mbox{\Hypertarget{classAlexaEvent_1_1Recorder_a8f17c6bba34df2df80791687eee658d1}\label{classAlexaEvent_1_1Recorder_a8f17c6bba34df2df80791687eee658d1}} 
+void {\bfseries open\+Device} (const char $\ast$device)
+\item 
+\mbox{\Hypertarget{classAlexaEvent_1_1Recorder_a1788911e74fcf60188e7026d0f0d18ed}\label{classAlexaEvent_1_1Recorder_a1788911e74fcf60188e7026d0f0d18ed}} 
+void {\bfseries close\+Device} (void)
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classAlexaEvent_1_1Recorder_af48d8e53343a71a527052e9dcce7e7c0}\label{classAlexaEvent_1_1Recorder_af48d8e53343a71a527052e9dcce7e7c0}} 
+static void {\bfseries on\+Record\+Thread\+Timer} (\hyperlink{classAlexaEvent_1_1Recorder}{Recorder} $\ast$rc, unsigned int $\ast$flags)
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/include/event/recorder.\+hpp\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/event/recorder.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,50 @@
+\hypertarget{classhttp2_1_1HTTP2TransportQueue}{}\section{http2\+:\+:H\+T\+T\+P2\+Transport\+Queue Class Reference}
+\label{classhttp2_1_1HTTP2TransportQueue}\index{http2\+::\+H\+T\+T\+P2\+Transport\+Queue@{http2\+::\+H\+T\+T\+P2\+Transport\+Queue}}
+Inheritance diagram for http2\+:\+:H\+T\+T\+P2\+Transport\+Queue\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{d2/d72/classhttp2_1_1HTTP2TransportQueue}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2TransportQueue_ae7d5da235921626c65d481432551ef42}\label{classhttp2_1_1HTTP2TransportQueue_ae7d5da235921626c65d481432551ef42}} 
+void {\bfseries initialize} (void)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2TransportQueue_a4dc6c5766f8156d93d5067a3c725a9cf}\label{classhttp2_1_1HTTP2TransportQueue_a4dc6c5766f8156d93d5067a3c725a9cf}} 
+void {\bfseries clean\+Up} (void)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2TransportQueue_a3d7a941c838043d7111076ce6a6c427e}\label{classhttp2_1_1HTTP2TransportQueue_a3d7a941c838043d7111076ce6a6c427e}} 
+bool {\bfseries queue\+\_\+transport\+\_\+processing} (\hyperlink{classhttp2_1_1HTTP2PipelineInterface}{H\+T\+T\+P2\+Pipeline\+Interface} $\ast$pip)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2TransportQueue_a2292a221a4a82ea007348bd6aea1a1d0}\label{classhttp2_1_1HTTP2TransportQueue_a2292a221a4a82ea007348bd6aea1a1d0}} 
+void {\bfseries queue\+\_\+response\+\_\+processsing} (\hyperlink{classhttp2_1_1HTTP2PipelineInterface}{H\+T\+T\+P2\+Pipeline\+Interface} $\ast$pip)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2TransportQueue_a3aea18458c80573b97205710b93ef02e}\label{classhttp2_1_1HTTP2TransportQueue_a3aea18458c80573b97205710b93ef02e}} 
+void {\bfseries push\+\_\+transport} (Shared\+Transport\+Data transportdata)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2TransportQueue_aabaabc36eab95931575a2e41bb86250a}\label{classhttp2_1_1HTTP2TransportQueue_aabaabc36eab95931575a2e41bb86250a}} 
+void {\bfseries push\+\_\+response} (Shared\+Response response)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2TransportQueue_aa9bebd8b75513c55aad91bef438aaae1}\label{classhttp2_1_1HTTP2TransportQueue_aa9bebd8b75513c55aad91bef438aaae1}} 
+void {\bfseries clear\+\_\+transport\+\_\+queue} (void)
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2TransportQueue_ac49196a197873ca53b160e3ab727de49}\label{classhttp2_1_1HTTP2TransportQueue_ac49196a197873ca53b160e3ab727de49}} 
+void {\bfseries clear\+\_\+response\+\_\+queue} (void)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2TransportQueue_a56e7b70b752125b72fc8123312609928}\label{classhttp2_1_1HTTP2TransportQueue_a56e7b70b752125b72fc8123312609928}} 
+Boost\+Transport\+Queue {\bfseries m\+\_\+transport\+\_\+queue}
+\item 
+\mbox{\Hypertarget{classhttp2_1_1HTTP2TransportQueue_a35362e644edeee07ba7e1aedf5895dbb}\label{classhttp2_1_1HTTP2TransportQueue_a35362e644edeee07ba7e1aedf5895dbb}} 
+Boost\+Response\+Queue {\bfseries m\+\_\+response\+\_\+queue}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/include/http2/http2transportqueue.\+hpp\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/http2/http2transportqueue.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,105 @@
+\hypertarget{classAlexaEvent_1_1EventStreamRequest}{}\section{Alexa\+Event\+:\+:Event\+Stream\+Request Class Reference}
+\label{classAlexaEvent_1_1EventStreamRequest}\index{Alexa\+Event\+::\+Event\+Stream\+Request@{Alexa\+Event\+::\+Event\+Stream\+Request}}
+
+
+The \hyperlink{classAlexaEvent_1_1EventStreamRequest}{Event\+Stream\+Request} class build a custom http2transportdata only with alexa-\/json-\/events.  
+
+
+
+
+{\ttfamily \#include $<$eventstreamrequest.\+hpp$>$}
+
+Inheritance diagram for Alexa\+Event\+:\+:Event\+Stream\+Request\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d4/dd0/classAlexaEvent_1_1EventStreamRequest}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classAlexaEvent_1_1EventStreamRequest_aa2dba1096313c98d24709adb2c03dcf0}{set\+Access\+Token} (const char $\ast$access\+\_\+token)
+\begin{DoxyCompactList}\small\item\em set\+Access\+Token \end{DoxyCompactList}\item 
+void \hyperlink{classAlexaEvent_1_1EventStreamRequest_a2daacbd57363d40dae81c8be99b50346}{set\+Boundary} (const char $\ast$boundary)
+\begin{DoxyCompactList}\small\item\em set\+Boundary \end{DoxyCompactList}\item 
+void \hyperlink{classAlexaEvent_1_1EventStreamRequest_ac9768da8142180ef8dcd53268ffb3a8e}{set\+Custom\+Json\+Transport\+Info} (\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$json\+\_\+content)
+\begin{DoxyCompactList}\small\item\em set\+Custom\+Json\+Transport\+Info \end{DoxyCompactList}\item 
+http2\+::\+Shared\+Transport\+Data \hyperlink{classAlexaEvent_1_1EventStreamRequest_a54ffbcf4baef4f0426cf8baf34483b74}{build\+Transport\+Data} (void)
+\begin{DoxyCompactList}\small\item\em build\+Transport\+Data \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classAlexaEvent_1_1EventStreamRequest}{Event\+Stream\+Request} class build a custom http2transportdata only with alexa-\/json-\/events. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classAlexaEvent_1_1EventStreamRequest_a54ffbcf4baef4f0426cf8baf34483b74}\label{classAlexaEvent_1_1EventStreamRequest_a54ffbcf4baef4f0426cf8baf34483b74}} 
+\index{Alexa\+Event\+::\+Event\+Stream\+Request@{Alexa\+Event\+::\+Event\+Stream\+Request}!build\+Transport\+Data@{build\+Transport\+Data}}
+\index{build\+Transport\+Data@{build\+Transport\+Data}!Alexa\+Event\+::\+Event\+Stream\+Request@{Alexa\+Event\+::\+Event\+Stream\+Request}}
+\subsubsection{\texorpdfstring{build\+Transport\+Data()}{buildTransportData()}}
+{\footnotesize\ttfamily http2\+::\+Shared\+Transport\+Data Event\+Stream\+Request\+::build\+Transport\+Data (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+build\+Transport\+Data 
+
+final, build the http2transportdata \begin{DoxyReturn}{Returns}
+H\+T\+T\+P2\+Transport\+Data instance 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classAlexaEvent_1_1TransportDataInterface}{Alexa\+Event\+::\+Transport\+Data\+Interface}.
+
+\mbox{\Hypertarget{classAlexaEvent_1_1EventStreamRequest_aa2dba1096313c98d24709adb2c03dcf0}\label{classAlexaEvent_1_1EventStreamRequest_aa2dba1096313c98d24709adb2c03dcf0}} 
+\index{Alexa\+Event\+::\+Event\+Stream\+Request@{Alexa\+Event\+::\+Event\+Stream\+Request}!set\+Access\+Token@{set\+Access\+Token}}
+\index{set\+Access\+Token@{set\+Access\+Token}!Alexa\+Event\+::\+Event\+Stream\+Request@{Alexa\+Event\+::\+Event\+Stream\+Request}}
+\subsubsection{\texorpdfstring{set\+Access\+Token()}{setAccessToken()}}
+{\footnotesize\ttfamily void Event\+Stream\+Request\+::set\+Access\+Token (\begin{DoxyParamCaption}\item[{const char $\ast$}]{access\+\_\+token }\end{DoxyParamCaption})}
+
+
+
+set\+Access\+Token 
+
+set a access token 
+\begin{DoxyParams}{Parameters}
+{\em access\+\_\+token} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classAlexaEvent_1_1EventStreamRequest_a2daacbd57363d40dae81c8be99b50346}\label{classAlexaEvent_1_1EventStreamRequest_a2daacbd57363d40dae81c8be99b50346}} 
+\index{Alexa\+Event\+::\+Event\+Stream\+Request@{Alexa\+Event\+::\+Event\+Stream\+Request}!set\+Boundary@{set\+Boundary}}
+\index{set\+Boundary@{set\+Boundary}!Alexa\+Event\+::\+Event\+Stream\+Request@{Alexa\+Event\+::\+Event\+Stream\+Request}}
+\subsubsection{\texorpdfstring{set\+Boundary()}{setBoundary()}}
+{\footnotesize\ttfamily void Event\+Stream\+Request\+::set\+Boundary (\begin{DoxyParamCaption}\item[{const char $\ast$}]{boundary }\end{DoxyParamCaption})}
+
+
+
+set\+Boundary 
+
+set a boundary 
+\begin{DoxyParams}{Parameters}
+{\em boundary} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classAlexaEvent_1_1EventStreamRequest_ac9768da8142180ef8dcd53268ffb3a8e}\label{classAlexaEvent_1_1EventStreamRequest_ac9768da8142180ef8dcd53268ffb3a8e}} 
+\index{Alexa\+Event\+::\+Event\+Stream\+Request@{Alexa\+Event\+::\+Event\+Stream\+Request}!set\+Custom\+Json\+Transport\+Info@{set\+Custom\+Json\+Transport\+Info}}
+\index{set\+Custom\+Json\+Transport\+Info@{set\+Custom\+Json\+Transport\+Info}!Alexa\+Event\+::\+Event\+Stream\+Request@{Alexa\+Event\+::\+Event\+Stream\+Request}}
+\subsubsection{\texorpdfstring{set\+Custom\+Json\+Transport\+Info()}{setCustomJsonTransportInfo()}}
+{\footnotesize\ttfamily void Event\+Stream\+Request\+::set\+Custom\+Json\+Transport\+Info (\begin{DoxyParamCaption}\item[{\hyperlink{classAlexaEvent_1_1TransportInfo}{Transport\+Info} $\ast$}]{json\+\_\+content }\end{DoxyParamCaption})}
+
+
+
+set\+Custom\+Json\+Transport\+Info 
+
+set a transportinfo 
+\begin{DoxyParams}{Parameters}
+{\em json\+\_\+content} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classAlexaEvent_1_1EventModulManager}{Event\+Modul\+Manager} 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/include/event/eventstreamrequest.\+hpp\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/event/eventstreamrequest.\+cpp\end{DoxyCompactItemize}

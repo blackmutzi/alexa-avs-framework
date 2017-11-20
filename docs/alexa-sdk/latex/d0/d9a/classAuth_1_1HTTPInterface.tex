@@ -1,0 +1,128 @@
+\hypertarget{classAuth_1_1HTTPInterface}{}\section{Auth\+:\+:H\+T\+T\+P\+Interface Class Reference}
+\label{classAuth_1_1HTTPInterface}\index{Auth\+::\+H\+T\+T\+P\+Interface@{Auth\+::\+H\+T\+T\+P\+Interface}}
+
+
+The \hyperlink{classAuth_1_1HTTPInterface}{H\+T\+T\+P\+Interface} class make a connection to any http(s) url and send only post data \+: Libcurl.  
+
+
+
+
+{\ttfamily \#include $<$httpinterface.\+hpp$>$}
+
+Inheritance diagram for Auth\+:\+:H\+T\+T\+P\+Interface\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d0/d9a/classAuth_1_1HTTPInterface}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classAuth_1_1HTTPInterface_af841ffd92bdf7bc099c42c2793c471ee}\label{classAuth_1_1HTTPInterface_af841ffd92bdf7bc099c42c2793c471ee}} 
+{\bfseries H\+T\+T\+P\+Interface} (\hyperlink{classAuth_1_1HTTPResponse}{H\+T\+T\+P\+Response} $\ast$response\+\_\+instance)
+\item 
+void \hyperlink{classAuth_1_1HTTPInterface_afd8f3f0a92345fcece6a4851d8bbe0bf}{set\+Url} (std\+::string url)
+\begin{DoxyCompactList}\small\item\em set\+Url \end{DoxyCompactList}\item 
+void \hyperlink{classAuth_1_1HTTPInterface_a44a5ec483fcd6088e13a372f651d87d7}{set\+Post\+Data} (std\+::string data)
+\begin{DoxyCompactList}\small\item\em set\+Post\+Data \end{DoxyCompactList}\item 
+void \hyperlink{classAuth_1_1HTTPInterface_a1e32cd183942b8705785280ef6ee4d41}{set\+Header\+Data} (std\+::string data)
+\begin{DoxyCompactList}\small\item\em set\+Header\+Data \end{DoxyCompactList}\item 
+void \hyperlink{classAuth_1_1HTTPInterface_acb184003ca339f704cfe1fbb2e1dd7de}{perform} (void)
+\begin{DoxyCompactList}\small\item\em perform \end{DoxyCompactList}\item 
+\hyperlink{classAuth_1_1HTTPResponse}{H\+T\+T\+P\+Response} $\ast$ \hyperlink{classAuth_1_1HTTPInterface_a02099413f03853c33303d1d490ceb288}{get\+Response} (void)
+\begin{DoxyCompactList}\small\item\em get\+Response \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classAuth_1_1HTTPInterface_a65f5944d96b63139df2878425f28adf5}\label{classAuth_1_1HTTPInterface_a65f5944d96b63139df2878425f28adf5}} 
+static size\+\_\+t {\bfseries write\+Response\+Data} (void $\ast$contents, size\+\_\+t size, size\+\_\+t memb, void $\ast$user\+\_\+response\+\_\+instance)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classAuth_1_1HTTPInterface_a33db32facfdc78bed06a8e78ecd9459e}\label{classAuth_1_1HTTPInterface_a33db32facfdc78bed06a8e78ecd9459e}} 
+C\+U\+RL $\ast$ {\bfseries m\+\_\+curl\+\_\+instance}
+\item 
+\mbox{\Hypertarget{classAuth_1_1HTTPInterface_a8f4f3bcd25596b8b7eff4ecda764a82a}\label{classAuth_1_1HTTPInterface_a8f4f3bcd25596b8b7eff4ecda764a82a}} 
+\hyperlink{classAuth_1_1HTTPResponse}{H\+T\+T\+P\+Response} $\ast$ {\bfseries m\+\_\+http\+\_\+response}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classAuth_1_1HTTPInterface}{H\+T\+T\+P\+Interface} class make a connection to any http(s) url and send only post data \+: Libcurl. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classAuth_1_1HTTPInterface_a02099413f03853c33303d1d490ceb288}\label{classAuth_1_1HTTPInterface_a02099413f03853c33303d1d490ceb288}} 
+\index{Auth\+::\+H\+T\+T\+P\+Interface@{Auth\+::\+H\+T\+T\+P\+Interface}!get\+Response@{get\+Response}}
+\index{get\+Response@{get\+Response}!Auth\+::\+H\+T\+T\+P\+Interface@{Auth\+::\+H\+T\+T\+P\+Interface}}
+\subsubsection{\texorpdfstring{get\+Response()}{getResponse()}}
+{\footnotesize\ttfamily \hyperlink{classAuth_1_1HTTPResponse}{H\+T\+T\+P\+Response} $\ast$ H\+T\+T\+P\+Interface\+::get\+Response (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+get\+Response 
+
+return response data \begin{DoxyReturn}{Returns}
+H\+T\+T\+P\+Response$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAuth_1_1HTTPInterface_acb184003ca339f704cfe1fbb2e1dd7de}\label{classAuth_1_1HTTPInterface_acb184003ca339f704cfe1fbb2e1dd7de}} 
+\index{Auth\+::\+H\+T\+T\+P\+Interface@{Auth\+::\+H\+T\+T\+P\+Interface}!perform@{perform}}
+\index{perform@{perform}!Auth\+::\+H\+T\+T\+P\+Interface@{Auth\+::\+H\+T\+T\+P\+Interface}}
+\subsubsection{\texorpdfstring{perform()}{perform()}}
+{\footnotesize\ttfamily void H\+T\+T\+P\+Interface\+::perform (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+perform 
+
+connect to server \mbox{\Hypertarget{classAuth_1_1HTTPInterface_a1e32cd183942b8705785280ef6ee4d41}\label{classAuth_1_1HTTPInterface_a1e32cd183942b8705785280ef6ee4d41}} 
+\index{Auth\+::\+H\+T\+T\+P\+Interface@{Auth\+::\+H\+T\+T\+P\+Interface}!set\+Header\+Data@{set\+Header\+Data}}
+\index{set\+Header\+Data@{set\+Header\+Data}!Auth\+::\+H\+T\+T\+P\+Interface@{Auth\+::\+H\+T\+T\+P\+Interface}}
+\subsubsection{\texorpdfstring{set\+Header\+Data()}{setHeaderData()}}
+{\footnotesize\ttfamily void H\+T\+T\+P\+Interface\+::set\+Header\+Data (\begin{DoxyParamCaption}\item[{std\+::string}]{data }\end{DoxyParamCaption})}
+
+
+
+set\+Header\+Data 
+
+set http header data 
+\begin{DoxyParams}{Parameters}
+{\em data} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classAuth_1_1HTTPInterface_a44a5ec483fcd6088e13a372f651d87d7}\label{classAuth_1_1HTTPInterface_a44a5ec483fcd6088e13a372f651d87d7}} 
+\index{Auth\+::\+H\+T\+T\+P\+Interface@{Auth\+::\+H\+T\+T\+P\+Interface}!set\+Post\+Data@{set\+Post\+Data}}
+\index{set\+Post\+Data@{set\+Post\+Data}!Auth\+::\+H\+T\+T\+P\+Interface@{Auth\+::\+H\+T\+T\+P\+Interface}}
+\subsubsection{\texorpdfstring{set\+Post\+Data()}{setPostData()}}
+{\footnotesize\ttfamily void H\+T\+T\+P\+Interface\+::set\+Post\+Data (\begin{DoxyParamCaption}\item[{std\+::string}]{data }\end{DoxyParamCaption})}
+
+
+
+set\+Post\+Data 
+
+set post data 
+\begin{DoxyParams}{Parameters}
+{\em data} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classAuth_1_1HTTPInterface_afd8f3f0a92345fcece6a4851d8bbe0bf}\label{classAuth_1_1HTTPInterface_afd8f3f0a92345fcece6a4851d8bbe0bf}} 
+\index{Auth\+::\+H\+T\+T\+P\+Interface@{Auth\+::\+H\+T\+T\+P\+Interface}!set\+Url@{set\+Url}}
+\index{set\+Url@{set\+Url}!Auth\+::\+H\+T\+T\+P\+Interface@{Auth\+::\+H\+T\+T\+P\+Interface}}
+\subsubsection{\texorpdfstring{set\+Url()}{setUrl()}}
+{\footnotesize\ttfamily void H\+T\+T\+P\+Interface\+::set\+Url (\begin{DoxyParamCaption}\item[{std\+::string}]{url }\end{DoxyParamCaption})}
+
+
+
+set\+Url 
+
+set http(s) url 
+\begin{DoxyParams}{Parameters}
+{\em url} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/include/auth/httpinterface.\+hpp\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/auth/httpinterface.\+cpp\end{DoxyCompactItemize}

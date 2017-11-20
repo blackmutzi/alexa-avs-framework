@@ -1,0 +1,163 @@
+\hypertarget{classdirective_1_1Directive}{}\section{directive\+:\+:Directive Class Reference}
+\label{classdirective_1_1Directive}\index{directive\+::\+Directive@{directive\+::\+Directive}}
+
+
+The \hyperlink{classdirective_1_1Directive}{Directive} class contain response directive data from avs-\/amazon-\/server.  
+
+
+
+
+{\ttfamily \#include $<$directive.\+hpp$>$}
+
+Inheritance diagram for directive\+:\+:Directive\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{df/de5/classdirective_1_1Directive}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classdirective_1_1Directive_a9552b16869e2f677b7d4de6f86e74380}{set\+Directive\+Type} (\hyperlink{classdirective_1_1DirectiveType}{Directive\+Type} $\ast$type)
+\begin{DoxyCompactList}\small\item\em set\+Directive\+Type \end{DoxyCompactList}\item 
+void \hyperlink{classdirective_1_1Directive_a792b74f87e9b15b12c03d1cf3716e630}{set\+Json\+Info} (\hyperlink{classAlexaEvent_1_1TransportInfo}{Alexa\+Event\+::\+Transport\+Info} $\ast$json\+\_\+info)
+\begin{DoxyCompactList}\small\item\em set\+Json\+Info \end{DoxyCompactList}\item 
+void \hyperlink{classdirective_1_1Directive_a79ea767cd28592072064c3e0442be9c9}{set\+Audio\+Info} (\hyperlink{classAlexaEvent_1_1TransportInfo}{Alexa\+Event\+::\+Transport\+Info} $\ast$audio\+\_\+info)
+\begin{DoxyCompactList}\small\item\em set\+Audio\+Info \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classdirective_1_1Directive_af93f6ef70333f5a4e81a4a4ab98b75a7}\label{classdirective_1_1Directive_af93f6ef70333f5a4e81a4a4ab98b75a7}} 
+void {\bfseries set\+Audio\+Info\+Status} (bool status)
+\item 
+bool \hyperlink{classdirective_1_1Directive_a4f8197c2858b56499b9e91ccf7b19aa3}{has\+Audio\+Info} (void) const
+\begin{DoxyCompactList}\small\item\em has\+Audio\+Info \end{DoxyCompactList}\item 
+\hyperlink{classdirective_1_1DirectiveType}{Directive\+Type} $\ast$ \hyperlink{classdirective_1_1Directive_a4bd9d57de7da2e6d1584e300051de093}{get\+Directive\+Type} (void) const
+\begin{DoxyCompactList}\small\item\em get\+Directive\+Type \end{DoxyCompactList}\item 
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Alexa\+Event\+::\+Transport\+Info} $\ast$ \hyperlink{classdirective_1_1Directive_a026cf59dfe62697996942ca06f859158}{get\+Json\+Info} (void) const
+\begin{DoxyCompactList}\small\item\em get\+Json\+Info \end{DoxyCompactList}\item 
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Alexa\+Event\+::\+Transport\+Info} $\ast$ \hyperlink{classdirective_1_1Directive_a4ba0bb73e9db8c21061c4f102e49bfcb}{get\+Audio\+Info} (void) const
+\begin{DoxyCompactList}\small\item\em get\+Audio\+Info \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdirective_1_1Directive_a9eae623c460cac1533c8a1d158283cb7}\label{classdirective_1_1Directive_a9eae623c460cac1533c8a1d158283cb7}} 
+bool {\bfseries m\+\_\+has\+\_\+audio\+\_\+info}
+\item 
+\mbox{\Hypertarget{classdirective_1_1Directive_acbc877a152bd0798c30b53fe672f136d}\label{classdirective_1_1Directive_acbc877a152bd0798c30b53fe672f136d}} 
+\hyperlink{classdirective_1_1DirectiveType}{Directive\+Type} $\ast$ {\bfseries m\+\_\+directive\+\_\+type}
+\item 
+\mbox{\Hypertarget{classdirective_1_1Directive_ab0cd5bcb27e264f0a45607a36ed8964b}\label{classdirective_1_1Directive_ab0cd5bcb27e264f0a45607a36ed8964b}} 
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Alexa\+Event\+::\+Transport\+Info} $\ast$ {\bfseries m\+\_\+json\+\_\+info}
+\item 
+\mbox{\Hypertarget{classdirective_1_1Directive_a5b6756b4af7e247449e03c3ab9eca864}\label{classdirective_1_1Directive_a5b6756b4af7e247449e03c3ab9eca864}} 
+\hyperlink{classAlexaEvent_1_1TransportInfo}{Alexa\+Event\+::\+Transport\+Info} $\ast$ {\bfseries m\+\_\+audio\+\_\+info}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classdirective_1_1Directive}{Directive} class contain response directive data from avs-\/amazon-\/server. 
+
+directivetype as identification ( directive namespace name , directive name ) json\+Info as json response content audio\+Info as audio response content (binary) 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classdirective_1_1Directive_a4ba0bb73e9db8c21061c4f102e49bfcb}\label{classdirective_1_1Directive_a4ba0bb73e9db8c21061c4f102e49bfcb}} 
+\index{directive\+::\+Directive@{directive\+::\+Directive}!get\+Audio\+Info@{get\+Audio\+Info}}
+\index{get\+Audio\+Info@{get\+Audio\+Info}!directive\+::\+Directive@{directive\+::\+Directive}}
+\subsubsection{\texorpdfstring{get\+Audio\+Info()}{getAudioInfo()}}
+{\footnotesize\ttfamily \hyperlink{classAlexaEvent_1_1TransportInfo}{Alexa\+Event\+::\+Transport\+Info} $\ast$ Directive\+::get\+Audio\+Info (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const}
+
+
+
+get\+Audio\+Info 
+
+return saved transportinfo instance ( audio ) \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classdirective_1_1Directive_a4bd9d57de7da2e6d1584e300051de093}\label{classdirective_1_1Directive_a4bd9d57de7da2e6d1584e300051de093}} 
+\index{directive\+::\+Directive@{directive\+::\+Directive}!get\+Directive\+Type@{get\+Directive\+Type}}
+\index{get\+Directive\+Type@{get\+Directive\+Type}!directive\+::\+Directive@{directive\+::\+Directive}}
+\subsubsection{\texorpdfstring{get\+Directive\+Type()}{getDirectiveType()}}
+{\footnotesize\ttfamily \hyperlink{classdirective_1_1DirectiveType}{Directive\+Type} $\ast$ Directive\+::get\+Directive\+Type (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const}
+
+
+
+get\+Directive\+Type 
+
+return saved directivetype instance \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classdirective_1_1Directive_a026cf59dfe62697996942ca06f859158}\label{classdirective_1_1Directive_a026cf59dfe62697996942ca06f859158}} 
+\index{directive\+::\+Directive@{directive\+::\+Directive}!get\+Json\+Info@{get\+Json\+Info}}
+\index{get\+Json\+Info@{get\+Json\+Info}!directive\+::\+Directive@{directive\+::\+Directive}}
+\subsubsection{\texorpdfstring{get\+Json\+Info()}{getJsonInfo()}}
+{\footnotesize\ttfamily \hyperlink{classAlexaEvent_1_1TransportInfo}{Alexa\+Event\+::\+Transport\+Info} $\ast$ Directive\+::get\+Json\+Info (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const}
+
+
+
+get\+Json\+Info 
+
+return saved transportinfo instance ( json ) \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classdirective_1_1Directive_a4f8197c2858b56499b9e91ccf7b19aa3}\label{classdirective_1_1Directive_a4f8197c2858b56499b9e91ccf7b19aa3}} 
+\index{directive\+::\+Directive@{directive\+::\+Directive}!has\+Audio\+Info@{has\+Audio\+Info}}
+\index{has\+Audio\+Info@{has\+Audio\+Info}!directive\+::\+Directive@{directive\+::\+Directive}}
+\subsubsection{\texorpdfstring{has\+Audio\+Info()}{hasAudioInfo()}}
+{\footnotesize\ttfamily bool Directive\+::has\+Audio\+Info (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const}
+
+
+
+has\+Audio\+Info 
+
+return true if audio transportinfo instance is set \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classdirective_1_1Directive_a79ea767cd28592072064c3e0442be9c9}\label{classdirective_1_1Directive_a79ea767cd28592072064c3e0442be9c9}} 
+\index{directive\+::\+Directive@{directive\+::\+Directive}!set\+Audio\+Info@{set\+Audio\+Info}}
+\index{set\+Audio\+Info@{set\+Audio\+Info}!directive\+::\+Directive@{directive\+::\+Directive}}
+\subsubsection{\texorpdfstring{set\+Audio\+Info()}{setAudioInfo()}}
+{\footnotesize\ttfamily void Directive\+::set\+Audio\+Info (\begin{DoxyParamCaption}\item[{\hyperlink{classAlexaEvent_1_1TransportInfo}{Alexa\+Event\+::\+Transport\+Info} $\ast$}]{audio\+\_\+info }\end{DoxyParamCaption})}
+
+
+
+set\+Audio\+Info 
+
+save transportinfo instance as audio content 
+\begin{DoxyParams}{Parameters}
+{\em audio\+\_\+info} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classdirective_1_1Directive_a9552b16869e2f677b7d4de6f86e74380}\label{classdirective_1_1Directive_a9552b16869e2f677b7d4de6f86e74380}} 
+\index{directive\+::\+Directive@{directive\+::\+Directive}!set\+Directive\+Type@{set\+Directive\+Type}}
+\index{set\+Directive\+Type@{set\+Directive\+Type}!directive\+::\+Directive@{directive\+::\+Directive}}
+\subsubsection{\texorpdfstring{set\+Directive\+Type()}{setDirectiveType()}}
+{\footnotesize\ttfamily void Directive\+::set\+Directive\+Type (\begin{DoxyParamCaption}\item[{\hyperlink{classdirective_1_1DirectiveType}{Directive\+Type} $\ast$}]{type }\end{DoxyParamCaption})}
+
+
+
+set\+Directive\+Type 
+
+save directivetype instance 
+\begin{DoxyParams}{Parameters}
+{\em type} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classdirective_1_1Directive_a792b74f87e9b15b12c03d1cf3716e630}\label{classdirective_1_1Directive_a792b74f87e9b15b12c03d1cf3716e630}} 
+\index{directive\+::\+Directive@{directive\+::\+Directive}!set\+Json\+Info@{set\+Json\+Info}}
+\index{set\+Json\+Info@{set\+Json\+Info}!directive\+::\+Directive@{directive\+::\+Directive}}
+\subsubsection{\texorpdfstring{set\+Json\+Info()}{setJsonInfo()}}
+{\footnotesize\ttfamily void Directive\+::set\+Json\+Info (\begin{DoxyParamCaption}\item[{\hyperlink{classAlexaEvent_1_1TransportInfo}{Alexa\+Event\+::\+Transport\+Info} $\ast$}]{json\+\_\+info }\end{DoxyParamCaption})}
+
+
+
+set\+Json\+Info 
+
+save transportinfo instance as json content 
+\begin{DoxyParams}{Parameters}
+{\em json\+\_\+info} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/include/directive/directive.\+hpp\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/directive/directive.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,64 @@
+\hypertarget{classAVS_1_1GPlayback}{}\section{A\+VS\+:\+:G\+Playback Class Reference}
+\label{classAVS_1_1GPlayback}\index{A\+V\+S\+::\+G\+Playback@{A\+V\+S\+::\+G\+Playback}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classAVS_1_1GPlayback_af831308af9bad387a1ac54e187166a0f}{initialize} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\item 
+\mbox{\Hypertarget{classAVS_1_1GPlayback_aa1d713f76885384ec62aac6c7f8f1cfa}\label{classAVS_1_1GPlayback_aa1d713f76885384ec62aac6c7f8f1cfa}} 
+void {\bfseries release} (void)
+\item 
+\mbox{\Hypertarget{classAVS_1_1GPlayback_a641e61f15fbcd7ada474934a53ed4364}\label{classAVS_1_1GPlayback_a641e61f15fbcd7ada474934a53ed4364}} 
+void {\bfseries push\+\_\+buffer} (\hyperlink{classAlexaEvent_1_1TransportInfo}{Alexa\+Event\+::\+Transport\+Info} $\ast$mp3\+\_\+info)
+\item 
+\mbox{\Hypertarget{classAVS_1_1GPlayback_a3dcc1bc51db522999a18bde63ae89928}\label{classAVS_1_1GPlayback_a3dcc1bc51db522999a18bde63ae89928}} 
+void {\bfseries remove\+\_\+buffer} (void)
+\item 
+\mbox{\Hypertarget{classAVS_1_1GPlayback_a049384e93714247c36ac0a08c00dfaa8}\label{classAVS_1_1GPlayback_a049384e93714247c36ac0a08c00dfaa8}} 
+void {\bfseries play} (void)
+\item 
+\mbox{\Hypertarget{classAVS_1_1GPlayback_a029f2a37672bede55ee4acddf74d77db}\label{classAVS_1_1GPlayback_a029f2a37672bede55ee4acddf74d77db}} 
+void {\bfseries stop} (void)
+\item 
+\mbox{\Hypertarget{classAVS_1_1GPlayback_aad35dd1a22e99170d9e90d30a80df57b}\label{classAVS_1_1GPlayback_aad35dd1a22e99170d9e90d30a80df57b}} 
+void {\bfseries pause} (void)
+\item 
+\mbox{\Hypertarget{classAVS_1_1GPlayback_ad91c413c91126c654d44fc4068b836be}\label{classAVS_1_1GPlayback_ad91c413c91126c654d44fc4068b836be}} 
+bool {\bfseries is\+Playing} (void)
+\item 
+\mbox{\Hypertarget{classAVS_1_1GPlayback_a8a8d27b925d39009cede75d3a27d11de}\label{classAVS_1_1GPlayback_a8a8d27b925d39009cede75d3a27d11de}} 
+gint64 {\bfseries get\+Position} (void)
+\item 
+\mbox{\Hypertarget{classAVS_1_1GPlayback_a745ae2ba25b4998d161a0aa08ac40fa3}\label{classAVS_1_1GPlayback_a745ae2ba25b4998d161a0aa08ac40fa3}} 
+void {\bfseries set\+Position} (gint64 pos)
+\item 
+\mbox{\Hypertarget{classAVS_1_1GPlayback_a3ceb4a0dfac5b6c4d106f998192e5167}\label{classAVS_1_1GPlayback_a3ceb4a0dfac5b6c4d106f998192e5167}} 
+Gst\+Element $\ast$ {\bfseries get\+Pipeline} (void)
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classAVS_1_1GPlayback_a539ae06008b59d0e2418cf2fc9be5b31}\label{classAVS_1_1GPlayback_a539ae06008b59d0e2418cf2fc9be5b31}} 
+static gboolean {\bfseries cb\+\_\+print\+\_\+position} (\hyperlink{classAVS_1_1GPlayback}{G\+Playback} $\ast$instance)
+\item 
+\mbox{\Hypertarget{classAVS_1_1GPlayback_a875edb4c27fa9fb003fc3dc5ba3c9614}\label{classAVS_1_1GPlayback_a875edb4c27fa9fb003fc3dc5ba3c9614}} 
+static gboolean {\bfseries bus\+\_\+call} (Gst\+Bus $\ast$bus, Gst\+Message $\ast$msg, gpointer data)
+\item 
+\mbox{\Hypertarget{classAVS_1_1GPlayback_a966315c89b4209583df9487ffce84921}\label{classAVS_1_1GPlayback_a966315c89b4209583df9487ffce84921}} 
+static \hyperlink{classAlexaEvent_1_1TransportInfo}{Alexa\+Event\+::\+Transport\+Info} $\ast$ {\bfseries binary\+\_\+loader} (const char $\ast$filename)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classAVS_1_1GPlayback_af831308af9bad387a1ac54e187166a0f}\label{classAVS_1_1GPlayback_af831308af9bad387a1ac54e187166a0f}} 
+\index{A\+V\+S\+::\+G\+Playback@{A\+V\+S\+::\+G\+Playback}!initialize@{initialize}}
+\index{initialize@{initialize}!A\+V\+S\+::\+G\+Playback@{A\+V\+S\+::\+G\+Playback}}
+\subsubsection{\texorpdfstring{initialize()}{initialize()}}
+{\footnotesize\ttfamily void G\+Playback\+::initialize (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+Create G\+Streamer \hyperlink{classAVS_1_1Pipeline}{Pipeline} decoder
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/include/audio/gplayback.\+hpp\item 
+/home/mutzi/progs/linux\+\_\+workspace/alexa-\/avs-\/framework/src/alexa-\/sdk-\/framework/audio/gplayback.\+cpp\end{DoxyCompactItemize}
