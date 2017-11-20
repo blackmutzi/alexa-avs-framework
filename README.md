@@ -7,7 +7,7 @@ Alexa-Voice-Service-Framework - Project from 2017-2018 ( still in development )
     *    :> builtin Gstreamer pipeline, play Alexa Sounds.
     * AlexaWebServer as Web-API, CGI-Web-Application
     * AlexaQtApplication used AlexaWebServer API
-    * AlexaDiscordBot
+    * AlexaDiscordBot ( mobile to go =) )
     * AlexaWakeWordServer
     * AlexaWakeWordClient
     * AlexaSkillServer
