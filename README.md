@@ -1,11 +1,13 @@
 # Alexa-AVS Framework
-Alexa Voice Service Framework - Project from 2017-2018 ( is still in development )
-Is a Alexa Voice Service Framework to Communicate with the AVS-Amazon Server.
-# Features!
-    * Directive and Events Management with the Amazon-Server
-    * HTTPS-Multipart-Json Object Management 
-    * GStreamer Pipeline ( play alexa sounds )
-    * builtIn a WakeWord Server
-    * builtIn a WakeWord Client
-    * builtIn a Alexa-Server as CGI Web Application ( c++ ), 
-    * builtIn a Alexa-Desktop-Client as QT Application
+Alexa-Voice-Service-Framework - Project from 2017-2018 ( still in development )
+
+# Features
+    * AlexaAmazonClient to communicate with the Amazon Server
+    *    :> builtin Cloud-Based WakeWord Recognize-Speech Profile 
+    *    :> builtin Gstreamer pipeline, play Alexa Sounds.
+    * AlexaWebServer as Web-API, CGI-Web-Application
+    * AlexaQtApplication used AlexaWebServer API
+    * AlexaDiscordBot
+    * AlexaWakeWordServer
+    * AlexaWakeWordClient
+    * AlexaSkillServer
