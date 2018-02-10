@@ -6,8 +6,8 @@ Project Status: in Development
 # planned main features
 - [x] AlexaAmazonClient ( to communicate with the Amazon Server )
 - [ ] AlexaWebServer ( Web API to trigger AlexaEvents )
-- [ ] AlexaQtApplication ( used Web API )
-- [ ] AlexaDiscordBot ( used Web API )
+- [ ] AlexaQtApplication ( use Web API )
+- [ ] AlexaDiscordBot ( use Web API )
 # alexa-amazon-client features
 - [x] builtin Gstreamer pipeline  ( play Alexa Sounds )
 - [x] builtin console ( starting recording to speech with alexa - Commands: start )
@@ -29,11 +29,13 @@ $ mv config-example.json config.json
 Follow the steps [here](https://github.com/alexa/alexa-avs-sample-app/wiki/Raspberry-Pi) to create a amazon security profile.
 
 After, edit client_id , client_secret and product_id and save config.json
+
 Start /usr/bin/AlexaAmazonClient and you get a link from app. Copy the Link in your Browser. Login to your Security Profile now.
 After, save your code_grant into the config.json and the configuration is finish.
 
 Notice: refresh token must not be set, set automatic from app
 ```sh
+config.json
 {
 "client_id":" YOUR_CLIENT_ID_HERE",
 "client_secret":" YOUR_CLIENT_SECRET_HERE",
