@@ -1,2 +1,9 @@
 *.user
+*.cmake
+*.so
+*.so.1
+*.so.1.0.0
 *.pro
+Makefile
+cmake_debug/
+CMakeFiles
