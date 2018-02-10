@@ -18,10 +18,10 @@
 #ifndef JSONOBJECT_H
 #define JSONOBJECT_H
 
-#include "include/stdafx.hpp"
-#include "include/event/transport_builder_interface.hpp"
-#include "include/event/jsonbodybuilder.hpp"
-#include "include/event/jsonheaderbuilder.hpp"
+#include "stdafx.hpp"
+#include "event/transport_builder_interface.hpp"
+#include "event/jsonbodybuilder.hpp"
+#include "event/jsonheaderbuilder.hpp"
 
 namespace AlexaEvent
 {

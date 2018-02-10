@@ -18,7 +18,7 @@
 #ifndef REQUESTLAYER_HPP
 #define REQUESTLAYER_HPP
 
-#include "include/stdafx.hpp"
+#include "stdafx.hpp"
 
 namespace AlexaEvent
 {

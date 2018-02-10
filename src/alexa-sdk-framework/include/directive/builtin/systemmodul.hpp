@@ -18,10 +18,10 @@
 #ifndef SYSTEMMODUL_HPP
 #define SYSTEMMODUL_HPP
 
-#include "include/stdafx.hpp"
-#include "include/directive/directivemodulinterface.hpp"
-#include "include/directive/directivemaker.hpp"
-#include "include/event/requestmanager.hpp"
+#include "stdafx.hpp"
+#include "directive/directivemodulinterface.hpp"
+#include "directive/directivemaker.hpp"
+#include "event/requestmanager.hpp"
 
 namespace directive
 {

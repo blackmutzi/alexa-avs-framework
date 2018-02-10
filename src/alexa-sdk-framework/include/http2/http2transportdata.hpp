@@ -18,9 +18,9 @@
 #ifndef HTTP2TRANSPORTDATA_H
 #define HTTP2TRANSPORTDATA_H
 
-#include "include/stdafx.hpp"
-#include "include/event/transportinfo.hpp"
-#include "include/event/transportheaderinfo.hpp"
+#include "stdafx.hpp"
+#include "event/transportinfo.hpp"
+#include "event/transportheaderinfo.hpp"
 
 namespace http2
 {

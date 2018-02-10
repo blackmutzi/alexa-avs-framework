@@ -18,7 +18,7 @@
 #ifndef TRANSPORTINFO_H
 #define TRANSPORTINFO_H
 
-#include "include/stdafx.hpp"
+#include "stdafx.hpp"
 
 namespace AlexaEvent
 {

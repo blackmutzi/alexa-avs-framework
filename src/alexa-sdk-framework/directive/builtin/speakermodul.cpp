@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/directive/builtin/speakermodul.hpp"
+#include "directive/builtin/speakermodul.hpp"
 
 using namespace directive;
 

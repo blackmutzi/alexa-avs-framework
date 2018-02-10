@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/auth/authinfo.hpp"
+#include "auth/authinfo.hpp"
 
 using namespace Auth;
 

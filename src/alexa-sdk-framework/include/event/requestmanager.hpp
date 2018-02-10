@@ -1,14 +1,14 @@
 #ifndef REQUESTMANAGER_HPP
 #define REQUESTMANAGER_HPP
 
-#include "include/stdafx.hpp"
-#include "include/utils/logger.hpp"
-#include "include/amazon-client/pipeline.hpp"
+#include "stdafx.hpp"
+#include "utils/logger.hpp"
+#include "amazon-client/pipeline.hpp"
 
-#include "include/event/recorder.hpp"
-#include "include/event/eventstreamrequest.hpp"
-#include "include/event/recognizestreamrequest.hpp"
-#include "include/event/eventmodulmanger.hpp"
+#include "event/recorder.hpp"
+#include "event/eventstreamrequest.hpp"
+#include "event/recognizestreamrequest.hpp"
+#include "event/eventmodulmanger.hpp"
 
 namespace AVS
 {

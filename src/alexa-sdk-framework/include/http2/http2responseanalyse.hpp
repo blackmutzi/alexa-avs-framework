@@ -18,13 +18,13 @@
 #ifndef HTTP2RESPONSEANALYSE_HPP
 #define HTTP2RESPONSEANALYSE_HPP
 
-#include "include/stdafx.hpp"
-#include "include/http2/http2response.hpp"
-#include "include/directive/directiveiterator.hpp"
-#include "include/event/transportinfo.hpp"
-#include "include/directive/directive.hpp"
-#include "include/http2/http2headerinfo.hpp"
-#include "include/utils/logger.hpp"
+#include "stdafx.hpp"
+#include "http2/http2response.hpp"
+#include "directive/directiveiterator.hpp"
+#include "event/transportinfo.hpp"
+#include "directive/directive.hpp"
+#include "http2/http2headerinfo.hpp"
+#include "utils/logger.hpp"
 
 using namespace directive;
 using namespace AlexaEvent;

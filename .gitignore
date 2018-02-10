@@ -1,0 +1,6 @@
+*.user
+*.cmake
+*.so
+MakeFile
+cmake-build-debug/
+libs/

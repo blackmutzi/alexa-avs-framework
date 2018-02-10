@@ -1,4 +1,6 @@
-#include "include/amazon-client/alexaamazonclient.hpp"
+#include "amazon-client/alexaamazonclient.hpp"
+
+using namespace AVS;
 
 AlexaAmazonClient::AlexaAmazonClient( int argc , char * argv[] )
     : m_argc( argc ) , m_argv( argv ) , m_controller( new Controller() ) ,

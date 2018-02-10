@@ -18,7 +18,7 @@
 #ifndef AUTHINFO_HPP
 #define AUTHINFO_HPP
 
-#include "include/stdafx.hpp"
+#include "stdafx.hpp"
 
 namespace Auth
 {

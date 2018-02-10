@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/utils/logger.hpp"
+#include "utils/logger.hpp"
 
 using namespace AVS;
 

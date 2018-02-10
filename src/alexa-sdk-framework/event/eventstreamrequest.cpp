@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/event/eventstreamrequest.hpp"
+#include "event/eventstreamrequest.hpp"
 
 using namespace AlexaEvent;
 

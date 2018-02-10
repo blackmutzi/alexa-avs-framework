@@ -18,10 +18,10 @@
 #ifndef EVENTSPEECHRECOGNIZEMODUL_HPP
 #define EVENTSPEECHRECOGNIZEMODUL_HPP
 
-#include "include/stdafx.hpp"
-#include "include/event/transportinfo.hpp"
-#include "include/event/builtin/eventcontextmodul.hpp"
-#include "include/event/recorder.hpp"
+#include "stdafx.hpp"
+#include "event/transportinfo.hpp"
+#include "event/builtin/eventcontextmodul.hpp"
+#include "event/recorder.hpp"
 
 namespace AlexaEvent
 {

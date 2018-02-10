@@ -18,8 +18,8 @@
 #ifndef HTTPPIPELINE_HPP
 #define HTTPPIPELINE_HPP
 
-#include "include/stdafx.hpp"
-#include "include/auth/httpinterface.hpp"
+#include "stdafx.hpp"
+#include "auth/httpinterface.hpp"
 
 namespace Auth
 {

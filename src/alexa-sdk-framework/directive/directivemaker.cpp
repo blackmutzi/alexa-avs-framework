@@ -1,4 +1,4 @@
-#include "include/directive/directivemaker.hpp"
+#include "directive/directivemaker.hpp"
 
 using namespace directive;
 

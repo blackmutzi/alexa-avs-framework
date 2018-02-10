@@ -18,8 +18,8 @@
 #ifndef DIRECTIVE_HPP
 #define DIRECTIVE_HPP
 
-#include "include/stdafx.hpp"
-#include "include/event/transportinfo.hpp"
+#include "stdafx.hpp"
+#include "event/transportinfo.hpp"
 
 namespace directive
 {

@@ -18,10 +18,10 @@
 #ifndef RECOGNIZESTREAMREQUEST_HPP
 #define RECOGNIZESTREAMREQUEST_HPP
 
-#include "include/stdafx.hpp"
-#include "include/event/transportdatainterface.hpp"
-#include "include/event/jsonobject.hpp"
-#include "include/event/http2headerpost.hpp"
+#include "stdafx.hpp"
+#include "event/transportdatainterface.hpp"
+#include "event/jsonobject.hpp"
+#include "event/http2headerpost.hpp"
 
 namespace AlexaEvent
 {

@@ -18,11 +18,11 @@
 #ifndef PIPELINE_HPP
 #define PIPELINE_HPP
 
-#include "include/stdafx.hpp"
-#include "include/http2/http2pipeline.hpp"
-#include "include/directive/directiveobserver.hpp"
-#include "include/http2/http2responseanalyse.hpp"
-#include "include/utils/logger.hpp"
+#include "stdafx.hpp"
+#include "http2/http2pipeline.hpp"
+#include "directive/directiveobserver.hpp"
+#include "http2/http2responseanalyse.hpp"
+#include "utils/logger.hpp"
 
 using namespace http2;
 using namespace directive;

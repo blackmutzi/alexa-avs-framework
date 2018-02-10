@@ -18,8 +18,8 @@
 #ifndef JSONHEADERBUILDER_HPP
 #define JSONHEADERBUILDER_HPP
 
-#include "include/stdafx.hpp"
-#include "include/event/transport_builder_interface.hpp"
+#include "stdafx.hpp"
+#include "event/transport_builder_interface.hpp"
 
 namespace AlexaEvent
 {

@@ -1,9 +1,9 @@
 #ifndef TRANSPORTDATAMANAGER_HPP
 #define TRANSPORTDATAMANAGER_HPP
 
-#include "include/stdafx.hpp"
-#include "include/event/transportinfo.hpp"
-#include "include/server/transportdataobserver.hpp"
+#include "stdafx.hpp"
+#include "event/transportinfo.hpp"
+#include "server/transportdataobserver.hpp"
 
 using namespace AlexaEvent;
 

@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/event/recorder.hpp"
+#include "event/recorder.hpp"
 
 using namespace AlexaEvent;
 

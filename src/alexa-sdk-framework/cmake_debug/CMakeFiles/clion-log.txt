@@ -1,0 +1,1 @@
+CMakeLists.txt not found in /home/mutzi/progs/linux_workspace/cplusplus_workspace/alexa-avs-framework/src/alexa-sdk-framework

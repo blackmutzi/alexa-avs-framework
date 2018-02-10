@@ -22,6 +22,7 @@ using namespace AVS;
 int Application::run( int argc, char **argv )
 {
     AlexaAmazonClient * client = new AlexaAmazonClient( argc , argv );
+    client->setConfigFile("/etc/alexa/config.json");
     client->connect();
 
     return 0;

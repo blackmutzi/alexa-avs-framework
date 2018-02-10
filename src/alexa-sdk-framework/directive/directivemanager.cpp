@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/directive/directivemanager.hpp"
+#include "directive/directivemanager.hpp"
 
 using namespace directive;
 

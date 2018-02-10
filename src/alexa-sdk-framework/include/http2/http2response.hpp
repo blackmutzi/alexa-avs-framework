@@ -19,8 +19,8 @@
 #ifndef HTTP2RESPONSE_H
 #define HTTP2RESPONSE_H
 
-#include "include/stdafx.hpp"
-#include "include/http2/http2data.hpp"
+#include "stdafx.hpp"
+#include "http2/http2data.hpp"
 
 namespace http2
 {

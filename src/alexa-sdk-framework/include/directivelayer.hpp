@@ -18,7 +18,7 @@
 #ifndef DIRECTIVELAYER_HPP
 #define DIRECTIVELAYER_HPP
 
-#include "include/stdafx.hpp"
+#include "stdafx.hpp"
 
 namespace directive
 {

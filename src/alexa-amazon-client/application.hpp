@@ -18,7 +18,7 @@
 #ifndef APPLICATION_HPP
 #define APPLICATION_HPP
 
-#include "include/amazon-client/alexaamazonclient.hpp"
+#include "amazon-client/alexaamazonclient.hpp"
 
 namespace AVS
 {

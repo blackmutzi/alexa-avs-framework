@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/event/transportheaderinfo.hpp"
+#include "event/transportheaderinfo.hpp"
 
 using namespace AlexaEvent;
 

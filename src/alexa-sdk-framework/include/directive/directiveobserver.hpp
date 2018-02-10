@@ -18,10 +18,10 @@
 #ifndef DIRECTIVENEVENTMAKER_HPP
 #define DIRECTIVENEVENTMAKER_HPP
 
-#include "include/stdafx.hpp"
-#include "include/directive/directive.hpp"
-#include "include/directive/directiveiterator.hpp"
-#include "include/directive/directivelistenerinterface.hpp"
+#include "stdafx.hpp"
+#include "directive/directive.hpp"
+#include "directive/directiveiterator.hpp"
+#include "directive/directivelistenerinterface.hpp"
 
 namespace directive
 {

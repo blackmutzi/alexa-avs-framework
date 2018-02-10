@@ -18,7 +18,7 @@
 #ifndef HTTP2RESPONSEEVENTINTERFACE_H
 #define HTTP2RESPONSEEVENTINTERFACE_H
 
-#include "include/stdafx.hpp"
+#include "stdafx.hpp"
 
 namespace http2
 {

@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/auth/httpinterface.hpp"
+#include "auth/httpinterface.hpp"
 
 using namespace Auth;
 

@@ -1,8 +1,8 @@
 #ifndef PIPELINECONNECTINFO_HPP
 #define PIPELINECONNECTINFO_HPP
 
-#include "include/stdafx.hpp"
-#include "include/http2/http2transportdata.hpp"
+#include "stdafx.hpp"
+#include "http2/http2transportdata.hpp"
 
 namespace http2
 {

@@ -1,9 +1,9 @@
 #ifndef DIRECTIVEMODULINTERFACE_HPP
 #define DIRECTIVEMODULINTERFACE_HPP
 
-#include "include/stdafx.hpp"
-#include "include/directive/directivecommand.hpp"
-#include "include/event/requestmanager.hpp"
+#include "stdafx.hpp"
+#include "directive/directivecommand.hpp"
+#include "event/requestmanager.hpp"
 
 namespace directive
 {

@@ -19,8 +19,8 @@
 #ifndef TRANSPORTDATAINFERFACE_HPP
 #define TRANSPORTDATAINFERFACE_HPP
 
-#include "include/event/transportmaker.hpp"
-#include "include/http2/http2transportdata.hpp"
+#include "event/transportmaker.hpp"
+#include "http2/http2transportdata.hpp"
 
 namespace AlexaEvent
 {

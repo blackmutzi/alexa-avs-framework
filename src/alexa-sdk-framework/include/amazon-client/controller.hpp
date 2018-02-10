@@ -18,11 +18,11 @@
 #ifndef CONTROLLER_HPP
 #define CONTROLLER_HPP
 
-#include "include/stdafx.hpp"
-#include "include/amazon-client/pipeline.hpp"
-#include "include/utils/console.hpp"
-#include "include/event/requestmanager.hpp"
-#include "include/directive/directivemanager.hpp"
+#include "stdafx.hpp"
+#include "amazon-client/pipeline.hpp"
+#include "utils/console.hpp"
+#include "event/requestmanager.hpp"
+#include "directive/directivemanager.hpp"
 
 using namespace AlexaEvent;
 namespace AVS

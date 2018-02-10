@@ -1,7 +1,7 @@
 #ifndef CONSOLE_HPP
 #define CONSOLE_HPP
 
-#include "include/stdafx.hpp"
+#include "stdafx.hpp"
 
 namespace AVS
 {

@@ -1,8 +1,8 @@
 #ifndef CLIENTS_HPP
 #define CLIENTS_HPP
 
-#include "include/stdafx.hpp"
-#include "include/server/transferstate.hpp"
+#include "stdafx.hpp"
+#include "server/transferstate.hpp"
 
 namespace Server
 {

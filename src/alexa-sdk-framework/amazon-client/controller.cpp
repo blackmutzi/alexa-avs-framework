@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/amazon-client/controller.hpp"
+#include "amazon-client/controller.hpp"
 
 using namespace AVS;
 

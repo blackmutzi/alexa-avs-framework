@@ -1,8 +1,8 @@
 #ifndef HTTP2HEADERINFO_HPP
 #define HTTP2HEADERINFO_HPP
 
-#include "include/stdafx.hpp"
-#include "include/nlohmann_json.hpp"
+#include "stdafx.hpp"
+#include "nlohmann_json.hpp"
 
 namespace http2
 {

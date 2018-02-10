@@ -18,10 +18,10 @@
 #ifndef HTTP2CONNECTION_H
 #define HTTP2CONNECTION_H
 
-#include "include/http2/http2response.hpp"
-#include "include/http2/http2responseeventinterface.hpp"
-#include "include/http2/http2transportdata.hpp"
-#include "include/http2/pipelineconnectinfo.hpp"
+#include "http2/http2response.hpp"
+#include "http2/http2responseeventinterface.hpp"
+#include "http2/http2transportdata.hpp"
+#include "http2/pipelineconnectinfo.hpp"
 
 namespace http2
 {

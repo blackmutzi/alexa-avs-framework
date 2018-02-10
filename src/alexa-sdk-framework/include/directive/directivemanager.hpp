@@ -18,17 +18,17 @@
 #ifndef DIRECTIVEMANAGER_HPP
 #define DIRECTIVEMANAGER_HPP
 
-#include "include/stdafx.hpp"
-#include "include/event/requestmanager.hpp"
+#include "stdafx.hpp"
+#include "event/requestmanager.hpp"
 
-#include "include/directive/directivecommandinvoker.hpp"
-#include "include/directive/builtin/alertmodul.hpp"
-#include "include/directive/builtin/audioplayermodul.hpp"
-#include "include/directive/builtin/notificationmodul.hpp"
-#include "include/directive/builtin/speakermodul.hpp"
-#include "include/directive/builtin/speechrecognizemodul.hpp"
-#include "include/directive/builtin/speechsynthesizermodul.hpp"
-#include "include/directive/builtin/systemmodul.hpp"
+#include "directive/directivecommandinvoker.hpp"
+#include "directive/builtin/alertmodul.hpp"
+#include "directive/builtin/audioplayermodul.hpp"
+#include "directive/builtin/notificationmodul.hpp"
+#include "directive/builtin/speakermodul.hpp"
+#include "directive/builtin/speechrecognizemodul.hpp"
+#include "directive/builtin/speechsynthesizermodul.hpp"
+#include "directive/builtin/systemmodul.hpp"
 
 
 namespace directive

@@ -18,16 +18,16 @@
 #ifndef EVENTMODULMANAGER_HPP
 #define EVENTMODULMANAGER_HPP
 
-#include "include/stdafx.hpp"
-#include "include/utils/logger.hpp"
-#include "include/event/builtin/eventalertmodul.hpp"
-#include "include/event/builtin/eventaudioplayermodul.hpp"
-#include "include/event/builtin/eventplaybackcontrollermodul.hpp"
-#include "include/event/builtin/eventsettingsmodul.hpp"
-#include "include/event/builtin/eventspeakermodul.hpp"
-#include "include/event/builtin/eventspeechrecognizemodul.hpp"
-#include "include/event/builtin/eventspeechsynthesizermodul.hpp"
-#include "include/event/builtin/eventsystemmodul.hpp"
+#include "stdafx.hpp"
+#include "utils/logger.hpp"
+#include "event/builtin/eventalertmodul.hpp"
+#include "event/builtin/eventaudioplayermodul.hpp"
+#include "event/builtin/eventplaybackcontrollermodul.hpp"
+#include "event/builtin/eventsettingsmodul.hpp"
+#include "event/builtin/eventspeakermodul.hpp"
+#include "event/builtin/eventspeechrecognizemodul.hpp"
+#include "event/builtin/eventspeechsynthesizermodul.hpp"
+#include "event/builtin/eventsystemmodul.hpp"
 
 namespace AlexaEvent
 {

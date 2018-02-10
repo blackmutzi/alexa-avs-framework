@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/directive/builtin/alertmodul.hpp"
+#include "directive/builtin/alertmodul.hpp"
 
 using namespace directive;
 

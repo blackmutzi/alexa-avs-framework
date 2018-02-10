@@ -1,10 +1,10 @@
 #ifndef SERVERINTERFACE_HPP
 #define SERVERINTERFACE_HPP
 
-#include "include/stdafx.hpp"
-#include "include/event/transportinfo.hpp"
-#include "include/utils/logger.hpp"
-#include "include/server/client.hpp"
+#include "stdafx.hpp"
+#include "event/transportinfo.hpp"
+#include "utils/logger.hpp"
+#include "server/client.hpp"
 
 using namespace AlexaEvent;
 using namespace AVS;

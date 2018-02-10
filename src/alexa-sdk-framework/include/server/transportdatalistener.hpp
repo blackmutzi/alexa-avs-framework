@@ -1,8 +1,8 @@
 #ifndef TRANSPORTDATALISTENER_HPP
 #define TRANSPORTDATALISTENER_HPP
 
-#include "include/stdafx.hpp"
-#include "include/event/transportinfo.hpp"
+#include "stdafx.hpp"
+#include "event/transportinfo.hpp"
 
 using namespace AlexaEvent;
 

@@ -18,10 +18,10 @@
 #ifndef HTTP2TRANSPORTQUEUE_H
 #define HTTP2TRANSPORTQUEUE_H
 
-#include "include/stdafx.hpp"
-#include "include/http2/http2transportdata.hpp"
-#include "include/http2/http2response.hpp"
-#include "include/http2/http2pipelineinterface.hpp"
+#include "stdafx.hpp"
+#include "http2/http2transportdata.hpp"
+#include "http2/http2response.hpp"
+#include "http2/http2pipelineinterface.hpp"
 
 
 namespace http2

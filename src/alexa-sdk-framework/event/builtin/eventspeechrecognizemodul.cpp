@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/event/builtin/eventspeechrecognizemodul.hpp"
+#include "event/builtin/eventspeechrecognizemodul.hpp"
 
 using namespace AlexaEvent;
 

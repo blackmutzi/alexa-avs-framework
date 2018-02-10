@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/event/jsonfileloader.hpp"
+#include "event/jsonfileloader.hpp"
 
 using namespace AlexaEvent;
 

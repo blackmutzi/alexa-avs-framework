@@ -18,12 +18,12 @@
 #ifndef TRANSPORTMAKER_H
 #define TRANSPORTMAKER_H
 
-#include "include/event/transport_builder_interface.hpp"
-#include "include/event/http2headerpost.hpp"
-#include "include/event/http2headerget.hpp"
-#include "include/event/jsonheaderbuilder.hpp"
-#include "include/event/jsonbodybuilder.hpp"
-#include "include/event/jsonobject.hpp"
+#include "event/transport_builder_interface.hpp"
+#include "event/http2headerpost.hpp"
+#include "event/http2headerget.hpp"
+#include "event/jsonheaderbuilder.hpp"
+#include "event/jsonbodybuilder.hpp"
+#include "event/jsonobject.hpp"
 
 namespace AlexaEvent
 {

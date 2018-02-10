@@ -18,8 +18,8 @@
 #ifndef HTTP2HEADERBUILDER_HPP
 #define HTTP2HEADERBUILDER_HPP
 
-#include "include/stdafx.hpp"
-#include "include/event/transport_builder_interface.hpp"
+#include "stdafx.hpp"
+#include "event/transport_builder_interface.hpp"
 
 namespace AlexaEvent
 {

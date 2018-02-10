@@ -18,9 +18,9 @@
 #ifndef EVENTSYSTEMMODUL_HPP
 #define EVENTSYSTEMMODUL_HPP
 
-#include "include/stdafx.hpp"
-#include "include/event/transportinfo.hpp"
-#include "include/event/builtin/eventcontextmodul.hpp"
+#include "stdafx.hpp"
+#include "event/transportinfo.hpp"
+#include "event/builtin/eventcontextmodul.hpp"
 
 namespace AlexaEvent
 {

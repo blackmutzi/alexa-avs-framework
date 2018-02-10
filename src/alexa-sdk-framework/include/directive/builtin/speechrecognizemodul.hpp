@@ -18,12 +18,12 @@
 #ifndef SPEECHRECOGNIZEMODUL_HPP
 #define SPEECHRECOGNIZEMODUL_HPP
 
-#include "include/stdafx.hpp"
-#include "include/utils/logger.hpp"
-#include "include/directive/directivemodulinterface.hpp"
-#include "include/directive/directivemaker.hpp"
-#include "include/nlohmann_json.hpp"
-#include "include/event/requestmanager.hpp"
+#include "stdafx.hpp"
+#include "utils/logger.hpp"
+#include "directive/directivemodulinterface.hpp"
+#include "directive/directivemaker.hpp"
+#include "nlohmann_json.hpp"
+#include "event/requestmanager.hpp"
 
 using namespace AVS;
 namespace directive

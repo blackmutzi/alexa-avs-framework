@@ -18,9 +18,9 @@
 #ifndef HTTP2PIPELINEINTERFACE_HPP
 #define HTTP2PIPELINEINTERFACE_HPP
 
-#include "include/stdafx.hpp"
-#include "include/http2/http2transportdata.hpp"
-#include "include/http2/http2response.hpp"
+#include "stdafx.hpp"
+#include "http2/http2transportdata.hpp"
+#include "http2/http2response.hpp"
 
 namespace http2
 {

@@ -1,9 +1,9 @@
 #ifndef ALEXASERVER_HPP
 #define ALEXASERVER_HPP
 
-#include "include/stdafx.hpp"
-#include "include/server/serverinterface.hpp"
-#include "include/server/transportdatamanager.hpp"
+#include "stdafx.hpp"
+#include "server/serverinterface.hpp"
+#include "server/transportdatamanager.hpp"
 
 namespace Server
 {

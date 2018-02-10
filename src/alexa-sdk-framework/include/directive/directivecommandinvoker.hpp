@@ -18,10 +18,10 @@
 #ifndef DIRECTIVESERVICE_HPP
 #define DIRECTIVESERVICE_HPP
 
-#include "include/stdafx.hpp"
-#include "include/directive/directivelistenerinterface.hpp"
-#include "include/directive/directivecommandproxy.hpp"
-#include "include/utils/logger.hpp"
+#include "stdafx.hpp"
+#include "directive/directivelistenerinterface.hpp"
+#include "directive/directivecommandproxy.hpp"
+#include "utils/logger.hpp"
 
 using namespace AVS;
 

@@ -18,10 +18,10 @@
 #ifndef NOTIFICATIONMODUL_HPP
 #define NOTIFICATIONMODUL_HPP
 
-#include "include/stdafx.hpp"
-#include "include/directive/directivemodulinterface.hpp"
-#include "include/directive/directivemaker.hpp"
-#include "include/event/requestmanager.hpp"
+#include "stdafx.hpp"
+#include "directive/directivemodulinterface.hpp"
+#include "directive/directivemaker.hpp"
+#include "event/requestmanager.hpp"
 
 namespace directive
 {

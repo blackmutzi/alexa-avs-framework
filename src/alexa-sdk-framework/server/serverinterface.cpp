@@ -1,4 +1,4 @@
-#include "include/server/serverinterface.hpp"
+#include "server/serverinterface.hpp"
 
 using namespace Server;
 

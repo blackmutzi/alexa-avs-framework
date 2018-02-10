@@ -18,8 +18,8 @@
 #ifndef JSONFILELOADER_H
 #define JSONFILELOADER_H
 
-#include "include/stdafx.hpp"
-#include "include/event/fileloader.hpp"
+#include "stdafx.hpp"
+#include "event/fileloader.hpp"
 
 namespace AlexaEvent
 {

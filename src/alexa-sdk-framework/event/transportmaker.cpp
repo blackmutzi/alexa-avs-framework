@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/event/transportmaker.hpp"
+#include "event/transportmaker.hpp"
 
 using namespace AlexaEvent;
 

@@ -18,8 +18,8 @@
 #ifndef HTTPINTERFACE_HPP
 #define HTTPINTERFACE_HPP
 
-#include "include/stdafx.hpp"
-#include "include/auth/httpresponse.hpp"
+#include "stdafx.hpp"
+#include "auth/httpresponse.hpp"
 
 namespace Auth
 {

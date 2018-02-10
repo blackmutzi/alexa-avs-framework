@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/audio/playback.hpp"
+#include "audio/playback.hpp"
 
 using namespace AVS;
 

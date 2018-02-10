@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/directive/directiveiterator.hpp"
+#include "directive/directiveiterator.hpp"
 
 using namespace directive;
 

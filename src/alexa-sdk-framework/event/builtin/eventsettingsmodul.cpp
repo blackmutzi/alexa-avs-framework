@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/event/builtin/eventsettingsmodul.hpp"
+#include "event/builtin/eventsettingsmodul.hpp"
 
 using namespace AlexaEvent;
 

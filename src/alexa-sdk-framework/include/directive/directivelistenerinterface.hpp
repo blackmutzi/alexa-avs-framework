@@ -18,8 +18,8 @@
 #ifndef DIRECTIVELISTENERINTERFACE_H
 #define DIRECTIVELISTENERINTERFACE_H
 
-#include "include/stdafx.hpp"
-#include "include/directive/directive.hpp"
+#include "stdafx.hpp"
+#include "directive/directive.hpp"
 
 namespace directive
 {

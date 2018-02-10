@@ -1,9 +1,9 @@
 #ifndef GPLAYBACK_HPP
 #define GPLAYBACK_HPP
 
-#include "include/stdafx.hpp"
-#include "include/event/transportinfo.hpp"
-#include "include/utils/logger.hpp"
+#include "stdafx.hpp"
+#include "event/transportinfo.hpp"
+#include "utils/logger.hpp"
 
 namespace AVS
 {

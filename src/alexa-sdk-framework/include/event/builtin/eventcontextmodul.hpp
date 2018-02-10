@@ -18,8 +18,8 @@
 #ifndef EVENTCONTEXTMODUL_HPP
 #define EVENTCONTEXTMODUL_HPP
 
-#include "include/stdafx.hpp"
-#include "include/event/jsonfileloader.hpp"
+#include "stdafx.hpp"
+#include "event/jsonfileloader.hpp"
 
 namespace AlexaEvent
 {

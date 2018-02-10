@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/directive/builtin/speechrecognizemodul.hpp"
+#include "directive/builtin/speechrecognizemodul.hpp"
 
 using namespace directive;
 

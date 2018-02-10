@@ -18,12 +18,12 @@
 #ifndef AUTHENTICATOR_HPP
 #define AUTHENTICATOR_HPP
 
-#include "include/stdafx.hpp"
-#include "include/utils/logger.hpp"
-#include "include/auth/authinfo.hpp"
-#include "include/auth/httppipeline.hpp"
-#include "include/nlohmann_json.hpp"
-#include "include/event/jsonfileloader.hpp"
+#include "stdafx.hpp"
+#include "utils/logger.hpp"
+#include "auth/authinfo.hpp"
+#include "auth/httppipeline.hpp"
+#include "nlohmann_json.hpp"
+#include "event/jsonfileloader.hpp"
 
 using namespace AVS;
 

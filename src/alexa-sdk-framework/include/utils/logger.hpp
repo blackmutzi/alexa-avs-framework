@@ -18,7 +18,7 @@
 #ifndef LOGGER_HPP
 #define LOGGER_HPP
 
-#include "include/stdafx.hpp"
+#include "stdafx.hpp"
 
 namespace AVS
 {

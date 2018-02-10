@@ -18,8 +18,8 @@
 #ifndef TRANSPORT_BUILDER_INTERFACE_HPP
 #define TRANSPORT_BUILDER_INTERFACE_HPP
 
-#include "include/event/transportinfo.hpp"
-#include "include/event/transportheaderinfo.hpp"
+#include "event/transportinfo.hpp"
+#include "event/transportheaderinfo.hpp"
 
 namespace AlexaEvent
 {

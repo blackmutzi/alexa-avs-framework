@@ -15,6 +15,6 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/event/transportdatainterface.hpp"
+#include "event/transportdatainterface.hpp"
 
 using namespace AlexaEvent;

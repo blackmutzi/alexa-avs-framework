@@ -15,13 +15,13 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/auth/authenticator.hpp"
+#include "auth/authenticator.hpp"
 
 using namespace Auth;
 
 Authenticator::Authenticator()
-    : m_api_amazon_url("https://api.amazon.com/auth/o2/token") ,
-      m_current_config("")
+    : m_api_amazon_url( std::string("https://api.amazon.com/auth/o2/token") ) ,
+      m_current_config( std::string("") )
 {}
 
 void Authenticator::createAuthInfo( AuthInfo * auth_info , string json_config_file )

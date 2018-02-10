@@ -18,8 +18,8 @@
 #ifndef DIRECTIVECOMMAND_HPP
 #define DIRECTIVECOMMAND_HPP
 
-#include "include/stdafx.hpp"
-#include "include/directive/directive.hpp"
+#include "stdafx.hpp"
+#include "directive/directive.hpp"
 
 namespace directive
 {

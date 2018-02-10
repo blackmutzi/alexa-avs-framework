@@ -1,4 +1,4 @@
-#include "include/server/alexaserver.hpp"
+#include "server/alexaserver.hpp"
 
 using namespace Server;
 

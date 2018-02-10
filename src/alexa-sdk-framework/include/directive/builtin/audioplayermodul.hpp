@@ -18,11 +18,11 @@
 #ifndef AUDIOPLAYERMODUL_HPP
 #define AUDIOPLAYERMODUL_HPP
 
-#include "include/stdafx.hpp"
-#include "include/utils/logger.hpp"
-#include "include/directive/directivemaker.hpp"
-#include "include/directive/directivemodulinterface.hpp"
-#include "include/event/requestmanager.hpp"
+#include "stdafx.hpp"
+#include "utils/logger.hpp"
+#include "directive/directivemaker.hpp"
+#include "directive/directivemodulinterface.hpp"
+#include "event/requestmanager.hpp"
 
 namespace directive
 {

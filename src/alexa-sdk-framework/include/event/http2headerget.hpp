@@ -18,7 +18,7 @@
 #ifndef HTTPHEADERGET_HPP
 #define HTTPHEADERGET_HPP
 
-#include "include/event/http2headerbuilder.hpp"
+#include "event/http2headerbuilder.hpp"
 
 namespace AlexaEvent
 {

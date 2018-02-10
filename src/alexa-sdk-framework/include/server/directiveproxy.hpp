@@ -1,9 +1,9 @@
 #ifndef DIRECTIVEPROXY_HPP
 #define DIRECTIVEPROXY_HPP
 
-#include "include/stdafx.hpp"
-#include "include/directive/directivelistenerinterface.hpp"
-#include "include/server/serverinterface.hpp"
+#include "stdafx.hpp"
+#include "directive/directivelistenerinterface.hpp"
+#include "server/serverinterface.hpp"
 
 using namespace directive;
 

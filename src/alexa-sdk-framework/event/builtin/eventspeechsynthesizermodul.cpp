@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/event/builtin/eventspeechsynthesizermodul.hpp"
+#include "event/builtin/eventspeechsynthesizermodul.hpp"
 
 using namespace AlexaEvent;
 

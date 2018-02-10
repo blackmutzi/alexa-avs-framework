@@ -18,12 +18,12 @@
 #ifndef HTTP2PIPELINE_HPP
 #define HTTP2PIPELINE_HPP
 
-#include "include/utils/logger.hpp"
-#include "include/http2/http2transportqueue.hpp"
-#include "include/http2/http2connection.hpp"
-#include "include/http2/http2pipelineinterface.hpp"
-#include "include/http2/pipelineconnectinfo.hpp"
-#include "include/http2/http2headerinfo.hpp"
+#include "utils/logger.hpp"
+#include "http2/http2transportqueue.hpp"
+#include "http2/http2connection.hpp"
+#include "http2/http2pipelineinterface.hpp"
+#include "http2/pipelineconnectinfo.hpp"
+#include "http2/http2headerinfo.hpp"
 
 #define ARRLEN(x) (sizeof(x) / sizeof(x[0]))
 

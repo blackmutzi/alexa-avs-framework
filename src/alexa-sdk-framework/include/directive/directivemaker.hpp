@@ -1,10 +1,10 @@
 #ifndef DIRECTIVEMAKER_HPP
 #define DIRECTIVEMAKER_HPP
 
-#include "include/stdafx.hpp"
-#include "include/utils/logger.hpp"
-#include "include/directive/directive.hpp"
-#include "include/directive/directivecommand.hpp"
+#include "stdafx.hpp"
+#include "utils/logger.hpp"
+#include "directive/directive.hpp"
+#include "directive/directivecommand.hpp"
 
 namespace directive
 {

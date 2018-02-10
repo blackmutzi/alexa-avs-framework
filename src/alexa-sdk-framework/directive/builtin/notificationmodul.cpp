@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/directive/builtin/notificationmodul.hpp"
+#include "directive/builtin/notificationmodul.hpp"
 
 using namespace directive;
 

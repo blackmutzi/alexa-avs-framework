@@ -1,7 +1,7 @@
 #ifndef TRANSFERSTATE_HPP
 #define TRANSFERSTATE_HPP
 
-#include "include/stdafx.hpp"
+#include "stdafx.hpp"
 
 namespace Server
 {

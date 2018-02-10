@@ -1,4 +1,4 @@
-#include "include/directive/directivemodulinterface.hpp"
+#include "directive/directivemodulinterface.hpp"
 
 using namespace directive;
 

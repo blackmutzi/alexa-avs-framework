@@ -18,7 +18,7 @@
 #ifndef AVS_HPP
 #define AVS_HPP
 
-#include "include/stdafx.hpp"
+#include "stdafx.hpp"
 #include "transportlayer.hpp"
 #include "requestlayer.hpp"
 #include "directivelayer.hpp"

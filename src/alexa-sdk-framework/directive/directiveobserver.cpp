@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/directive/directiveobserver.hpp"
+#include "directive/directiveobserver.hpp"
 
 using namespace directive;
 

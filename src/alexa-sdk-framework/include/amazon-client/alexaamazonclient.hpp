@@ -1,9 +1,9 @@
 #ifndef ALEXAAMAZONCLIENT_HPP
 #define ALEXAAMAZONCLIENT_HPP
 
-#include "include/stdafx.hpp"
-#include "include/amazon-client/controller.hpp"
-#include "include/auth/authenticator.hpp"
+#include "stdafx.hpp"
+#include "amazon-client/controller.hpp"
+#include "auth/authenticator.hpp"
 
 using namespace Auth;
 

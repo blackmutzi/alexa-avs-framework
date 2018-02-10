@@ -18,7 +18,7 @@
 #ifndef FILELOADER_H
 #define FILELOADER_H
 
-#include "include/stdafx.hpp"
+#include "stdafx.hpp"
 
 namespace AlexaEvent
 {

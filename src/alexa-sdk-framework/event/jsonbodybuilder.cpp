@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/event/jsonbodybuilder.hpp"
+#include "event/jsonbodybuilder.hpp"
 
 using namespace AlexaEvent;
 

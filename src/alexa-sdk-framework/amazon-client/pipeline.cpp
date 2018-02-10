@@ -15,7 +15,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "include/amazon-client/pipeline.hpp"
+#include "amazon-client/pipeline.hpp"
 
 using namespace AVS;
 
